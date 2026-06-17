@@ -31,7 +31,7 @@
 
 ## 未実施・保留の理由別内訳
 - A: 未実施 52件
-- A: 実行条件不足(Firefox起動) 42件
+- A: 実行環境制限(Firefox spawn EPERM) 42件
 - A: 証跡不足 1件
 - A: 対象外 188件
 - C: テストデータ不足 7件
@@ -76,49 +76,49 @@
 - A-087: 未実施 / 実ブラウザで該当画面・該当項目を手順通り完全検証できていないため未実施。前回の静的確認を合格扱いするのは不適切と判断し訂正。
 - A-089: 未実施 / 実ブラウザで該当画面・該当項目を手順通り完全検証できていないため未実施。前回の静的確認を合格扱いするのは不適切と判断し訂正。
 - A-091: 未実施 / 実ブラウザで該当画面・該当項目を手順通り完全検証できていないため未実施。前回の静的確認を合格扱いするのは不適切と判断し訂正。
-- A-103: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-104: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-105: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-106: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-107: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-108: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-109: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-110: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-111: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-112: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-113: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-114: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-115: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-116: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-117: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-118: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-119: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-120: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-121: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-122: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-123: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-124: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-125: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-126: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-127: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-128: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-129: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-130: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-131: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-132: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-133: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-134: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-135: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-136: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-137: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-138: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-139: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-140: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-141: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-142: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-147: 保留 / Firefox の error.asp について 44px 以上のタップターゲット実測証跡が不足しているため保留。既存スクリーンショットのみでは客先提出根拠として弱い。
-- A-151: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
-- A-152: 未実施 / 2026/06/17 section3 では Firefox の launchPersistentContext が起動直後に終了し、browserType.launchPersistentContext: Failed to launch the browser process で再実施不可。今回の整理では未実施(起動ブロッカー)として記録。evidence: _ff_launch_probe.mjs, 引き継ぎメモ
+- A-103: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-104: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-105: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-106: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-107: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-108: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-109: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-110: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-111: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-112: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-113: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-114: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-115: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-116: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-117: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-118: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-119: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-120: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-121: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-122: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-123: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-124: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-125: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-126: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-127: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-128: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-129: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-130: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-131: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-132: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-133: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-134: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-135: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-136: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-137: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-138: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-139: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-140: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-141: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-142: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-147: 保留 / Firefox の error.asp について 44px 以上のタップターゲット実測証跡が不足しているため保留。加えて 2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe の spawn が EPERM で拒否され、追加実測を再実行できない。テストコード不具合ではなく実行環境制限による環境ブロッカー。
+- A-151: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
+- A-152: 未実施 / Firefox本体はPowerShellから起動可能だが、2026/06/17 の切り分けで Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否されることを確認。テストコード不具合ではなく実行環境制限による環境ブロッカーのため再実施不可。evidence: _ff_launch_probe.mjs / Node spawnSync Firefox --version / PowerShell Firefox --version
 - A-162: 未実施 / ソース基準: CodePage=932 / Session.CodePage=932 / meta charset=shift_jis あり。表示確認は要ログインのため未実施。
 - A-176: 未実施 / ソース基準: CodePage=932 / Session.CodePage=932 / meta charset=shift_jis あり。表示確認は要ログインのため未実施。
 - A-190: 未実施 / ソース基準: CodePage=932 / Session.CodePage=932 / meta charset=shift_jis を追加済み。表示確認は要ログインのため未実施。
@@ -153,13 +153,14 @@
 ## 客先提出時の注意点
 - 証跡が無い項目は合格にせず、保留または未実施のまま残した。
 - C2-07 / BUG-005 は改修起因の不具合ではなく、対象データ不足による LEFT JOIN 結果空欄として整理した。
-- BUG-006 は D:\Inetpub\haolog の環境差異が前提であり、本番相当環境での確認が残っている。
+- Firefox 未実施・保留項目は、Firefox本体故障ではなく Codex/VS Code 経由の Node プロセスから Firefox.exe を spawn すると EPERM で拒否される実行環境制限を前提に整理した。
 
 ## 次に確認が必要な最小項目
-- A-147: Firefox error.asp のタップターゲット 44px 実測
+- A-147: Firefox error.asp のタップターゲット 44px 実測（実行環境制限が解消した後に再確認）
 - C3-04: 当日セル強調の実画面証跡
 - C3-05: うるう年 2/29 の実画面証跡
 - C3-14: 特殊文字を含む実データ表示証跡
 - C4-01 / C4-02: error.asp の表示・操作スクリーンショット
 - C1-01, C1-02, C2-02, C2-06, C2-08, C3-08, C3-09, C3-11: テストデータまたは実行条件の準備
 - BUG-006: 本番相当環境でのログ出力確認
+
