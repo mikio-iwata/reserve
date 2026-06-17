@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="shift_jis">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>reserve preview</title>
+<link href="../etc/style.css?v=single-base-1" rel="stylesheet" type="text/css" media="all">
+<link href="../etc/calendar.css?v=single-base-1" rel="stylesheet" type="text/css" media="all">
+<script src="../etc/calendar.js?v=single-base-1"></script>
+</head>
+<body>
+<div id="mainR" class="reserve-page" style="text-align: center;">
+  <h1 class="site-header"><img src="../images/header-img_135080.jpg" width="1350" height="80" alt="ハオ中国語アカデミー"></h1>
+  <nav class="process-breadcrumb" aria-label="進行状況">
+    <ol class="process-breadcrumb-list">
+      <li class="process-breadcrumb-item"><a href="#">ホーム</a></li>
+      <li class="process-breadcrumb-separator" aria-hidden="true">＞</li>
+      <li class="process-breadcrumb-item"><a href="#">レッスン予約システム コースの選択</a></li>
+      <li class="process-breadcrumb-separator" aria-hidden="true">＞</li>
+      <li class="process-breadcrumb-item"><a href="#">予約・キャンセル</a></li>
+      <li class="process-breadcrumb-separator" aria-hidden="true">＞</li>
+      <li class="process-breadcrumb-item is-current">クラス選択</li>
+    </ol>
+  </nav>
+  <div class="page-shell">
+    <div class="calendar-layout calendar-layout-stacked">
+      <div class="calendar-panel calendar-panel-stacked"><script>ShowCalendar();</script></div>
+      <div class="calendar-guide calendar-guide-stacked">
+        <p class="section-title">予約可能なクラス</p>
+        <p class="copy-text"><span class="strong">2026年6月29日(月) ハオオンライン校</span> で開講予定の <span class="blue">オンラインレッスン＆WEBセミナー</span> を表示しています。</p>
+        <div class="notice-box"><ul class="notice-list"><li>クラスの始まる 12 時間前を過ぎたクラス</li><li>満席のクラス</li><li>ご予約済クラスと同じ時間に開講されるクラス</li></ul></div>
+      </div>
+    </div>
+    <div class="section-card schedule-card"><form id="reserve-form"><div class="schedule-grid"><table class="schedule-table"><thead><tr><th></th><th>レッスン時刻</th><th>テキスト＆レッスン</th><th>状態</th></tr></thead><tbody><tr><td><input type="radio" id="ReserveCls_preview_1" name="ReserveCls" value="1"></td><td data-label="レッスン時刻"><label class="schedule-choice-label" for="ReserveCls_preview_1">12:00～12:50</label></td><td data-label="内容"><label class="schedule-choice-label" for="ReserveCls_preview_1"></label></td><td data-label="状態"><label class="schedule-choice-label" for="ReserveCls_preview_1"><span class="muted">予約可能</span></label></td></tr><tr><td><input type="radio" id="ReserveCls_preview_2" name="ReserveCls" value="2"></td><td data-label="レッスン時刻"><label class="schedule-choice-label" for="ReserveCls_preview_2">14:00～14:50</label></td><td data-label="内容"><label class="schedule-choice-label" for="ReserveCls_preview_2"></label></td><td data-label="状態"><label class="schedule-choice-label" for="ReserveCls_preview_2"><span class="muted">予約可能</span></label></td></tr></tbody></table></div></form></div>
+    <div class="section-card reserve-actions-card"><div class="action-row"><a href="#" class="btn btn-neutral">戻る</a><button type="submit" form="reserve-form" class="btn btn-primary">予約する</button></div></div>
+    <p class="copyright">Copyright 2007 HAO Chinese Academy. All rights reserved.</p>
+  </div>
+</div>
+</body>
+</html>
+
+
+
+

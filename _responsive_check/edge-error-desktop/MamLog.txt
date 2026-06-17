@@ -1,0 +1,30 @@
+[2026-05-28T04:28:27.074Z] [INFO] ========================================================================================================================
+[2026-05-28T04:28:27.074Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 148.0.3967.83
+SDK: 2.1.367.0
+OS: windows 10.0.26200.8457
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: OptiPlex 3080
+Telemetry: yes
+Managed device support: enabled
+[2026-05-28T04:28:27.074Z] [INFO] Telemetry session f5ec79b0-fef0-427d-8594-ddd828f629f4.
+[2026-05-28T04:28:27.074Z] [INFO] Initializing cache (v1).
+[2026-05-28T04:28:27.522Z] [INFO] Shutting down.
+[2026-05-28T04:28:27.522Z] [INFO] Stopping the task scheduler and canceling any outstanding work items...
+[2026-05-28T04:28:27.522Z] [INFO] Task scheduler has stopped, and all work has been canceled.
+[2026-05-28T04:29:12.328Z] [INFO] ========================================================================================================================
+[2026-05-28T04:29:12.328Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 148.0.3967.83
+SDK: 2.1.367.0
+OS: windows 10.0.26200.8457
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: OptiPlex 3080
+Telemetry: yes
+Managed device support: enabled
+[2026-05-28T04:29:12.328Z] [INFO] Telemetry session ec86db78-9b6c-46fe-bcd8-9da34767ce8f.
+[2026-05-28T04:29:12.328Z] [INFO] Reinitialized cache (v1).
+[2026-05-28T04:29:12.743Z] [INFO] Shutting down.
+[2026-05-28T04:29:12.743Z] [INFO] Stopping the task scheduler and canceling any outstanding work items...
+[2026-05-28T04:29:12.743Z] [INFO] Task scheduler has stopped, and all work has been canceled.

@@ -1,0 +1,13 @@
+72時間以内のレッスンキャンセルが発生いたしました。
+
+【管理番号】%number%
+
+【申込日】%entrydate%
+
+【レッスンキャンセル情報】
+https://headoffice.hao-net.com/hao/view/cancel_detail.asp?lcno=%number%
+
+------------------------------------------------------
+●○●
+ハオ中国語アカデミー
+e-mail:info@hao-net.com

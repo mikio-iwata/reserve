@@ -1,0 +1,4 @@
+{
+  "failedAt": "2026-06-17T02:28:19.105Z",
+  "error": "page.waitForTimeout: Target page, context or browser has been closed\n    at C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\firefox_c1_c2_probe.js:35:16"
+}

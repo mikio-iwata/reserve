@@ -1,0 +1,44 @@
+{
+  "date": "2026/06/15",
+  "target": "work\\_reserve2",
+  "localhost": {
+    "http://localhost/work/_reserve2/error.asp?Message=test": "timeout",
+    "http://localhost:8088/work/_reserve2/error.asp?Message=test": "404",
+    "http://localhost/hao/work/_reserve2/error.asp?Message=test": "timeout"
+  },
+  "firefox_metric_blocker": "Firefox executable exists, but geckodriver/Selenium/Playwright are unavailable; existing screenshots remain usable only as visual evidence, not v2 numeric evidence.",
+  "source": {
+    "index.asp": {
+      "CodePage=932": true,
+      "Session.CodePage = 932": true,
+      "charset=shift_jis": true,
+      "secure_include": false,
+      "ChkSecXss": false,
+      "ChkSecSql": false
+    },
+    "main.asp": {
+      "CodePage=932": true,
+      "Session.CodePage = 932": true,
+      "charset=shift_jis": true,
+      "secure_include": true,
+      "ChkSecXss": false,
+      "ChkSecSql": true
+    },
+    "reserve.asp": {
+      "CodePage=932": true,
+      "Session.CodePage = 932": true,
+      "charset=shift_jis": true,
+      "secure_include": true,
+      "ChkSecXss": true,
+      "ChkSecSql": true
+    },
+    "error.asp": {
+      "CodePage=932": true,
+      "Session.CodePage = 932": true,
+      "charset=shift_jis": true,
+      "secure_include": true,
+      "ChkSecXss": true,
+      "ChkSecSql": false
+    }
+  }
+}

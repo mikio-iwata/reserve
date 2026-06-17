@@ -1,0 +1,105 @@
+.jscalendar{
+	font-size: 12px;
+	color: #26B5EA;
+	background-color: #FFFFFF;
+	text-align: center;
+	border: 1px outset #DDDDDD;
+	width: 210px;
+	max-width: 100%;
+/*	height: 147px; */
+	overflow: hidden;
+	white-space: nowrap;
+	border-collapse: separate;
+	border-spacing: 0;
+}
+.jscalendar tr.cahead th{
+	background-color: #FF6633;
+	border-left: 0;
+	border-right: 0;
+}
+.jscalendar tr.cahead th a{
+	display: block;
+	width: 100%;
+	color: #FFFFFF;
+	font-size: 15px;
+	text-decoration: none;
+
+}
+.jscalendar th, .jscalendar td{
+	text-align: center;
+	width: 28px;
+	height: 20px;
+	border: 1px inset #DDDDDD;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	vertical-align: bottom;
+	line-height: 1.4;
+}
+.jscalendar th{
+	color: #FFFFFF;
+}
+.jscalendar tr.cahead th.camonth{
+	width: 148px;
+	border-right: 0;
+	border-left: 0;
+}
+.jscalendar th.cadayofweek{
+	background-color: #C0C0C0;
+}
+.jscalendar td a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #0000FF;
+}
+.jscalendar td a:hover{
+	width: 100%;
+	height: 100%;
+	display: block;
+	background-color: #66FF66;
+	overflow: hidden;
+}
+.jscalendar td a:visited{
+	color: #0000FF;
+}
+.jscalendar td.casun a{
+	color: #FF0000;
+}
+.jscalendar td.casun a:visited{
+	color: #FF0000;
+}
+.jscalendar td strong{
+	width: 100%;
+	height: 100%;
+	display: block;
+	background-color: #66FF66;
+	color: #0000FF;
+}
+.jscalendar td.casun strong{
+	color: #FF0000;
+}
+.jscalendar td strong.canow{
+	background-color: #FFFF66;
+	font-weight: normal;
+}
+
+@media screen and (max-width: 640px){
+	.jscalendar{
+		width: 210px;
+		max-width: 100%;
+		margin: 0 auto;
+		table-layout: fixed;
+	}
+
+	.jscalendar th,
+	.jscalendar td{
+		width: 28px;
+		height: 28px;
+	}
+
+	.jscalendar tr.cahead th.camonth{
+		width: auto;
+	}
+}

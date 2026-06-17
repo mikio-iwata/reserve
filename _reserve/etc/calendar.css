@@ -1,0 +1,106 @@
+.jscalendar{
+	font-size: 22px;
+	color: #26B5EA;
+	background-color: #FFFFFF;
+	text-align: center;
+	border: 1px solid #DDDDDD;
+	border-radius: 18px;
+	width: 100%;
+	max-width: none;
+	overflow: hidden;
+	white-space: nowrap;
+	border-collapse: separate;
+	border-spacing: 0;
+	table-layout: fixed;
+}
+.jscalendar tr{
+	height: 78px;
+}
+.jscalendar tr.cahead{
+	height: 64px;
+}
+.jscalendar tr.cahead th{
+	background-color: #FF6633;
+	border-left: 0;
+	border-right: 0;
+	height: 64px !important;
+}
+.jscalendar tr.cahead th a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 64px !important;
+	color: #FFFFFF;
+	font-size: 22px;
+	text-decoration: none;
+	padding: 0;
+}
+.jscalendar th,
+.jscalendar td{
+	text-align: center;
+	width: 14.285%;
+	height: 78px !important;
+	border: 1px solid #DDDDDD;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	vertical-align: middle;
+	line-height: 1.2;
+}
+.jscalendar th{
+	color: #FFFFFF;
+}
+.jscalendar th.cadayofweek{
+	background-color: #C0C0C0;
+	height: 44px !important;
+	font-size: 18px;
+}
+.jscalendar tr.cahead th.camonth{
+	width: auto;
+	border-right: 0;
+	border-left: 0;
+	font-size: 22px;
+}
+.jscalendar tr.cahead th:first-child{
+	border-top-left-radius: 18px;
+}
+.jscalendar tr.cahead th:last-child{
+	border-top-right-radius: 18px;
+}
+.jscalendar td a,
+.jscalendar td strong{
+	width: 100%;
+	height: 78px !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.jscalendar td a{
+	color: #0000FF;
+}
+.jscalendar td a:hover{
+	background-color: #66FF66;
+	overflow: hidden;
+}
+.jscalendar td a:visited{
+	color: #0000FF;
+}
+.jscalendar td.casun a{
+	color: #FF0000;
+}
+.jscalendar td.casun a:visited{
+	color: #FF0000;
+}
+.jscalendar td strong{
+	background-color: #66FF66;
+	color: #0000FF;
+}
+.jscalendar td.casun strong{
+	color: #FF0000;
+}
+.jscalendar td strong.canow{
+	background-color: #FFFF66;
+	font-weight: normal;
+}

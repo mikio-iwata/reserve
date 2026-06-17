@@ -1,0 +1,24 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+log/
+logs/
+
+# Temporary / backup files
+*.tmp
+*.bak
+*.old
+*.orig
+~$*
+
+# Archives
+*.zip
+*.7z
+*.rar

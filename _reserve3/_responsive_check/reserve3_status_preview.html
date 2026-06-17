@@ -1,0 +1,26 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="shift_jis">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../etc/style.css">
+</head>
+<body>
+<div id="mainR" class="reserve-page" style="text-align:center;">
+  <div class="page-shell">
+    <div class="calendar-guide calendar-guide-stacked"><p class="section-title">予約可能なクラス</p></div>
+    <div class="section-card schedule-card"><form id="reserve-form"><div class="schedule-grid"><table class="schedule-table"><thead><tr><th></th><th>レッスン時刻</th><th>テキスト＆レッスン</th><th>状態</th></tr></thead><tbody><tr><td><input type="radio"></td><td data-label="レッスン時刻"><label class="schedule-choice-label">11:00～11:50</label></td><td data-label="内容"><label class="schedule-choice-label">会話</label></td><td data-label="状態"><span class="muted">予約可能</span></td></tr></tbody></table></div></form></div>
+    <div class="section-card reserve-actions-card"><div class="action-row"><a class="btn btn-neutral">選択を見直す</a><button class="btn btn-primary">予約する</button></div></div>
+    <div class="reservation-status-wrap" id="statusWrap">
+      <div class="calendar-guide calendar-guide-stacked reservation-status-guide"><p class="section-title">予約状況</p><p class="copy-text"><span class="strong">2026年6月29日の予約済みレッスンです。</span></p></div>
+      <div class="section-card schedule-card reservation-status-card"><form id="cancel-form"><div class="schedule-grid"><table class="schedule-table"><thead><tr><th></th><th>レッスン時刻</th><th>テキスト＆レッスン</th><th>状態</th></tr></thead><tbody><tr><td><input type="radio"></td><td data-label="レッスン時刻"><label class="schedule-choice-label">12:00～12:50</label></td><td data-label="内容"><label class="schedule-choice-label"></label></td><td data-label="状態"><span class="status-chip">予約済</span></td></tr></tbody></table></div></form></div>
+      <div class="section-card reserve-actions-card cancel-actions-card"><div class="action-row"><button class="btn btn-danger">キャンセルする</button></div></div>
+    </div>
+  </div>
+</div>
+<script>
+const e=document.getElementById('statusWrap');
+document.body.setAttribute('data-metrics', Math.round(e.getBoundingClientRect().width)+','+getComputedStyle(e).backgroundColor+','+getComputedStyle(document.querySelector('.cancel-actions-card')).backgroundColor);
+</script>
+</body>
+</html>

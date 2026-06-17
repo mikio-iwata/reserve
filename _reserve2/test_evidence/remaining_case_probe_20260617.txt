@@ -1,0 +1,39 @@
+C1-01 / C1-02:
+- uid_course_probe.asp?uid=3070
+- uid=3070 の予約可能コースは 2 件
+  - 61|オンラインレッスン＆WEBセミナー|12
+  - 77|オンラインチャイナ|12
+- よって current account では「該当コース0件」「該当コース1件」は再現不能
+
+C1-06:
+- index.asp の閉じるは javascript:window.close()
+- popup 起動条件での実機確認が必要
+- 現時点ではログイン済み popup セッションが無いため未判定
+
+C2-02:
+- runtime_regression_notes_20260615.txt にて current account の残回数は 17 と確認済み
+- current account では「残回数0」は再現不能
+
+C2-06:
+- scenario_probe.asp?uid=3070&course=61&school=5221&from=2026-06-17 00:00:00&to=2026-07-31 23:59:59&no_rsv=12
+- 6629ni|2026-06-29 12:00:00|2026-06-29 12:50:00|5|booked=1|overlap=1|status=booked
+- current account に CourseType=1 の予約済データは存在
+- ただし teacher name 表示の UI 証跡は今回未取得
+
+C2-08:
+- current account の予約済みは 2026-06-29 12:00 のみ
+- 2026-06-17 時点ではキャンセル期限超過ではない
+- current account では「キャンセル期限超過」は再現不能
+
+C3-08 / C3-09 / C3-11:
+- scenario_probe.asp?uid=3070&course=61&school=5221&from=2026-06-17 00:00:00&to=2026-07-31 23:59:59&no_rsv=12
+- 6629ni|...|status=booked
+- 6629z6|...|status=available
+- 6630vy|...|status=available
+- 66303n|...|status=available
+- course=77, school=5221 は 2026-06-17〜2026-07-31 に該当クラス出力なし
+- current account / current future data では
+  - 満席(total=0)
+  - 締切後
+  - 時間重複
+  のいずれも再現不能

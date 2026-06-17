@@ -1,0 +1,116 @@
+.jscalendar{
+	font-size: 28px;
+	color: #5f6b7a;
+	background-color: #FFFFFF;
+	text-align: center;
+	border: 0;
+	border-radius: 22px;
+	width: 100%;
+	max-width: none;
+	overflow: hidden;
+	white-space: nowrap;
+	border-collapse: separate;
+	border-spacing: 0;
+	table-layout: fixed;
+}
+.jscalendar tr{
+	height: 100px;
+}
+.jscalendar tr.cahead{
+	height: 80px;
+}
+.jscalendar tr.cahead th{
+	background-color: #ff6638;
+	border-left: 0;
+	border-right: 0;
+	height: 80px !important;
+}
+.jscalendar tr.cahead th a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 80px !important;
+	color: #FFFFFF;
+	font-size: 28px;
+	text-decoration: none;
+	padding: 0;
+}
+.jscalendar th,
+.jscalendar td{
+	text-align: center;
+	width: 14.285%;
+	height: 100px !important;
+	border: 1px solid #e1ded8;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	vertical-align: middle;
+	line-height: 1.2;
+}
+.jscalendar th{
+	color: #FFFFFF;
+}
+.jscalendar th.cadayofweek{
+	background-color: #bdbdbd;
+	height: 56px !important;
+	font-size: 23px;
+}
+.jscalendar tr.cahead th.camonth{
+	width: auto;
+	border-right: 0;
+	border-left: 0;
+	font-size: 28px;
+}
+.jscalendar tr.cahead th:first-child{
+	border-top-left-radius: 18px;
+}
+.jscalendar tr.cahead th:last-child{
+	border-top-right-radius: 18px;
+}
+.jscalendar td a,
+.jscalendar td strong{
+	width: 100%;
+	height: 100px !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.jscalendar td a{
+	color: #0000FF;
+}
+.jscalendar td a:hover{
+	background-color: #ffc979;
+	overflow: hidden;
+}
+.jscalendar td a:visited{
+	color: #0000FF;
+}
+.jscalendar td.casun a{
+	color: #FF0000;
+}
+.jscalendar td.casun a:visited{
+	color: #FF0000;
+}
+.jscalendar td strong{
+	background-color: #ffc979;
+	color: #0000FF;
+}
+.jscalendar td.casun strong{
+	color: #FF0000;
+}
+.jscalendar td strong.canow{
+	background-color: #fff1df;
+	font-weight: normal;
+}
+
+.jscalendar{
+	margin-bottom: 18px;
+}
+.jscalendar tr:last-child td:first-child{
+	border-bottom-left-radius: 18px;
+}
+.jscalendar tr:last-child td:last-child{
+	border-bottom-right-radius: 18px;
+}

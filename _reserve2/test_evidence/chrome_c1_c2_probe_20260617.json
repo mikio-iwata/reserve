@@ -1,0 +1,19 @@
+{
+  "startedAt": "2026-06-17T02:35:54.661Z",
+  "c2_06": {
+    "url": "http://localhost:8088/netcampus/hao/work/_reserve2/main.asp",
+    "metaTexts": [
+      " "
+    ],
+    "hasTeacherPrefix": false,
+    "hasTeacherValue": false,
+    "status": "fail",
+    "evidence": "C2_06_main_chrome_20260617.png"
+  },
+  "c1_06": {
+    "closed": true,
+    "status": "pass",
+    "evidence": "C1_06_popup_before_close_chrome_20260617.png"
+  },
+  "finishedAt": "2026-06-17T02:35:55.971Z"
+}

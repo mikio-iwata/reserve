@@ -1,0 +1,15 @@
+[2026-06-09T01:22:55.418Z] [INFO] ========================================================================================================================
+[2026-06-09T01:22:55.418Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 149.0.4022.52
+SDK: 2.1.367.0
+OS: windows 10.0.26200.8457
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: OptiPlex 3080
+Telemetry: yes
+Managed device support: enabled
+[2026-06-09T01:22:55.418Z] [INFO] Telemetry session 0e92a068-0dda-4946-8f52-945e4e09d54f.
+[2026-06-09T01:22:55.418Z] [INFO] Initializing cache (v1).
+[2026-06-09T01:22:55.902Z] [INFO] Shutting down.
+[2026-06-09T01:22:55.902Z] [INFO] Stopping the task scheduler and canceling any outstanding work items...
+[2026-06-09T01:22:55.902Z] [INFO] Task scheduler has stopped, and all work has been canceled.

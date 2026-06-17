@@ -1,0 +1,86 @@
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head><base href="file:///C:/sources/asp/netcampus/hao/work/reserve/">
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ハオ中国語アカデミー　予約・キャンセルシステム</title>
+<link href="etc/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="main">
+<h1><img src="images/form_header_mini.gif" width="500" height="34" alt="ハオ中国語アカデミー"></h1>
+<h2>レッスンの予約・キャンセル―<span class="blue"></span></h2>
+<table id="formtable">
+  <tr>
+    <td><br><p><span class="strong"></span></p>
+
+	<p><span class="strong">●レッスンの予約</span></p><p>
+
+<form action="" method="post">
+    <font color = "blue"> </font>のご予約可能回数は、あと<span class="strong"></span>回です。<br>受講希望の学校名を選択し、「次へ」ボタンを押してください。</p></td>
+  </tr>
+</table>
+<table id="formtable" align="center">
+  <tr>
+    <td>
+      <select name="School">
+	<option value="">----お選び下さい----</option>
+
+	</select>
+	<input type="hidden" name="Action" value="Reserve">
+    </td>
+  </tr>
+  <tr>
+    <td class="action-row" height="100" valign="middle">
+
+    <a href=""><img src="images/back.gif" width="105" height="49" alt="戻る" border="0"></a>
+
+
+    <input type="image" src="images/next.gif" width="105" height="49" alt="次へ" border="0"></td>
+  </tr>
+</table>
+</form>
+
+
+<p id="attention"></p>
+
+<p><br><span class="strong">●レッスンのキャンセル</span></p><p>
+
+  <table id="formtable" align="center">
+    <tr>
+      <td class="action-row" height="100"><a href=""><img src="images/back.gif" width="105" height="49" alt="戻る" border="0"></a></td>
+    </tr>
+  </table>
+
+	<input type="radio" name="CancelCls" value="">
+
+
+	&nbsp;&nbsp;&nbsp;&nbsp;
+
+<table id="formtable" align="center">
+  <tr>
+    <td class="action-row" height="100"><input type="image" src="images/cancel.gif" width="105" height="49" alt="キャンセルする" border="0"></td>
+  </tr>
+</table>
+	<input type="hidden" name="action" value="Cencel">
+</form>
+
+<table id="formtable">
+  <tr>
+    <td height="20" valign="bottom"><img src="images/dot_gray.gif" width="500" height="1"></td>
+  </tr>
+  <tr>
+    <td class="copyright">Copyright 2007 HAO Chinese Academy. All rights reserved.</td>
+  </tr>
+</table>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,18 @@
+﻿[
+  {
+    "width": 768,
+    "headerWidth": 744,
+    "imgWidth": 744,
+    "headerRight": 756,
+    "imgRight": 756,
+    "imageExceedsHeader": false
+  },
+  {
+    "width": 900,
+    "headerWidth": 876,
+    "imgWidth": 876,
+    "headerRight": 888,
+    "imgRight": 888,
+    "imageExceedsHeader": false
+  }
+]

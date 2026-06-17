@@ -1,0 +1,28 @@
+﻿{
+  "browser": "Win Chrome (logged-in existing tab via CDP 9222)",
+  "date": "2026-06-15",
+  "pages": {
+    "index": {
+      "375": {"scrollWidth": 375, "innerWidth": 375, "headerOverflow": false},
+      "1280": {"scrollWidth": 1280, "innerWidth": 1280, "headerOverflow": false}
+    },
+    "main": {
+      "375": {"scrollWidth": 360, "innerWidth": 375, "headerOverflow": false},
+      "1280": {"scrollWidth": 1280, "innerWidth": 1280, "headerOverflow": false}
+    },
+    "reserve_intro": {
+      "375": {"scrollWidth": 375, "innerWidth": 375, "headerOverflow": false},
+      "1280": {"scrollWidth": 1280, "innerWidth": 1280, "headerOverflow": false}
+    },
+    "reserve_list": {
+      "375": {"scrollWidth": 360, "innerWidth": 375, "headerOverflow": false},
+      "1280": {"scrollWidth": 1265, "innerWidth": 1280, "headerOverflow": false}
+    }
+  },
+  "notes": [
+    "Used logged-in Chrome tab id CE93DBB5C7288767327FC97C871B384D via CDP http://127.0.0.1:9222.",
+    "Flow followed: index.asp -> course select -> main.asp -> school select -> reserve.asp -> date 29.",
+    "No horizontal overflow observed in tested Chrome 375/1280 screenshots.",
+    "Edge/Firefox real-browser checks remain not-run because logged-in sessions for those browsers were not provided and task forbids fresh login."
+  ]
+}

@@ -1,0 +1,28 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="shift_jis">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../etc/style.css">
+<style>body{margin:0}.mock-calendar{height:420px;background:#fff;border-radius:14px}.mock-table{height:260px;background:#fff7ef;border-radius:14px}</style>
+</head>
+<body>
+<div id="mainR" class="reserve-page" style="text-align:center;">
+  <h1 class="site-header"><img src="../images/header-img_135080.jpg" width="1350" height="80" alt=""></h1>
+  <div class="page-shell">
+    <div class="r3-reserve-summary r3-reserve-entry-card" id="summary"><div>summary</div></div>
+    <div class="calendar-layout reserve-calendar-layout reserve-calendar-layout-intro" id="calendarLayout">
+      <div class="r3-calendar-legend reserve-calendar-guide-card">日付を選択してください</div>
+      <div class="calendar-panel calendar-panel-stacked reserve-calendar-panel"><div class="mock-calendar">calendar</div></div>
+    </div>
+    <div class="calendar-guide calendar-guide-stacked" id="classGuide"><p class="section-title">予約可能なクラス</p></div>
+    <div class="section-card schedule-card"><div class="schedule-grid mock-table"></div></div>
+  </div>
+</div>
+<script>
+function m(id){var e=document.getElementById(id);return id+':'+Math.round(e.getBoundingClientRect().width)+':mt='+getComputedStyle(e).marginTop;}
+document.body.setAttribute('data-metrics',[m('summary'),m('calendarLayout'),m('classGuide')].join('|'));
+document.write('<pre id="metrics">'+document.body.getAttribute('data-metrics')+'</pre>');
+</script>
+</body>
+</html>

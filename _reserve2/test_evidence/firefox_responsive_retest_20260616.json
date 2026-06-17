@@ -1,0 +1,244 @@
+[
+  {
+    "pageKey": "index_course",
+    "width": 375,
+    "url": "http://localhost:8088/netcampus/hao/work/_reserve2/index.asp",
+    "innerWidth": 375,
+    "scrollWidth": 375,
+    "hasHorizontalOverflow": false,
+    "headerWrap": {
+      "width": 351.33331298828125,
+      "height": 38.69999694824219
+    },
+    "headerImg": {
+      "width": 653.2999877929688,
+      "height": 38.69999694824219
+    },
+    "mainWidth": 351.33331298828125,
+    "shellWidth": 351.33331298828125,
+    "calendarWidth": null,
+    "scheduleTableWidth": null,
+    "scheduleHeadDisplay": null,
+    "scheduleRowDisplay": null
+  },
+  {
+    "pageKey": "index_course",
+    "width": 1280,
+    "url": "http://localhost:8088/netcampus/hao/work/_reserve2/index.asp",
+    "innerWidth": 1280,
+    "scrollWidth": 1280,
+    "hasHorizontalOverflow": false,
+    "headerWrap": {
+      "width": 1024,
+      "height": 80
+    },
+    "headerImg": {
+      "width": 1350,
+      "height": 80
+    },
+    "mainWidth": 1024,
+    "shellWidth": 960,
+    "calendarWidth": null,
+    "scheduleTableWidth": null,
+    "scheduleHeadDisplay": null,
+    "scheduleRowDisplay": null
+  },
+  {
+    "pageKey": "main",
+    "width": 375,
+    "url": "http://localhost:8088/netcampus/hao/work/_reserve2/main.asp",
+    "innerWidth": 375,
+    "scrollWidth": 375,
+    "hasHorizontalOverflow": false,
+    "headerWrap": {
+      "width": 351.33331298828125,
+      "height": 38.69999694824219
+    },
+    "headerImg": {
+      "width": 653.2999877929688,
+      "height": 38.69999694824219
+    },
+    "mainWidth": 351.33331298828125,
+    "shellWidth": 351.33331298828125,
+    "calendarWidth": null,
+    "scheduleTableWidth": null,
+    "scheduleHeadDisplay": null,
+    "scheduleRowDisplay": null
+  },
+  {
+    "pageKey": "main",
+    "width": 1280,
+    "url": "http://localhost:8088/netcampus/hao/work/_reserve2/main.asp",
+    "innerWidth": 1280,
+    "scrollWidth": 1280,
+    "hasHorizontalOverflow": false,
+    "headerWrap": {
+      "width": 1024,
+      "height": 80
+    },
+    "headerImg": {
+      "width": 1350,
+      "height": 80
+    },
+    "mainWidth": 1024,
+    "shellWidth": 960,
+    "calendarWidth": null,
+    "scheduleTableWidth": null,
+    "scheduleHeadDisplay": null,
+    "scheduleRowDisplay": null
+  },
+  {
+    "pageKey": "reserve_intro",
+    "width": 375,
+    "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?School=5221",
+    "innerWidth": 375,
+    "scrollWidth": 375,
+    "hasHorizontalOverflow": false,
+    "headerWrap": {
+      "width": 351.33331298828125,
+      "height": 38.69999694824219
+    },
+    "headerImg": {
+      "width": 653.2999877929688,
+      "height": 38.69999694824219
+    },
+    "mainWidth": 351.33331298828125,
+    "shellWidth": 351.33331298828125,
+    "calendarWidth": 318,
+    "scheduleTableWidth": null,
+    "scheduleHeadDisplay": null,
+    "scheduleRowDisplay": null
+  },
+  {
+    "pageKey": "reserve_intro",
+    "width": 1280,
+    "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?School=5221",
+    "innerWidth": 1280,
+    "scrollWidth": 1280,
+    "hasHorizontalOverflow": false,
+    "headerWrap": {
+      "width": 1024,
+      "height": 80
+    },
+    "headerImg": {
+      "width": 1350,
+      "height": 80
+    },
+    "mainWidth": 1024,
+    "shellWidth": 960,
+    "calendarWidth": 700,
+    "scheduleTableWidth": null,
+    "scheduleHeadDisplay": null,
+    "scheduleRowDisplay": null
+  },
+  {
+    "pageKey": "reserve_classlist",
+    "width": 375,
+    "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?ClassYear=2026&ClassMonth=6&ClassDate=29&School=5221",
+    "innerWidth": 375,
+    "scrollWidth": 375,
+    "hasHorizontalOverflow": false,
+    "headerWrap": {
+      "width": 351.33331298828125,
+      "height": 38.69999694824219
+    },
+    "headerImg": {
+      "width": 653.2999877929688,
+      "height": 38.69999694824219
+    },
+    "mainWidth": 351.33331298828125,
+    "shellWidth": 351.33331298828125,
+    "calendarWidth": 318,
+    "scheduleTableWidth": 282,
+    "scheduleHeadDisplay": "none",
+    "scheduleRowDisplay": "grid"
+  },
+  {
+    "pageKey": "reserve_classlist",
+    "width": 640,
+    "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?ClassYear=2026&ClassMonth=6&ClassDate=29&School=5221",
+    "innerWidth": 640,
+    "scrollWidth": 640,
+    "hasHorizontalOverflow": false,
+    "headerWrap": {
+      "width": 616,
+      "height": 67.86666870117188
+    },
+    "headerImg": {
+      "width": 1145.433349609375,
+      "height": 67.86666870117188
+    },
+    "mainWidth": 616,
+    "shellWidth": 616,
+    "calendarWidth": 582.6666259765625,
+    "scheduleTableWidth": 546.6666259765625,
+    "scheduleHeadDisplay": "none",
+    "scheduleRowDisplay": "grid"
+  },
+  {
+    "pageKey": "reserve_classlist",
+    "width": 720,
+    "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?ClassYear=2026&ClassMonth=6&ClassDate=29&School=5221",
+    "innerWidth": 720,
+    "scrollWidth": 720,
+    "hasHorizontalOverflow": false,
+    "headerWrap": {
+      "width": 696,
+      "height": 76.68333435058594
+    },
+    "headerImg": {
+      "width": 1294.199951171875,
+      "height": 76.68333435058594
+    },
+    "mainWidth": 696,
+    "shellWidth": 696,
+    "calendarWidth": 650.6666259765625,
+    "scheduleTableWidth": 614.6666259765625,
+    "scheduleHeadDisplay": "table-header-group",
+    "scheduleRowDisplay": "table-row"
+  },
+  {
+    "pageKey": "reserve_classlist",
+    "width": 750,
+    "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?ClassYear=2026&ClassMonth=6&ClassDate=29&School=5221",
+    "innerWidth": 750,
+    "scrollWidth": 750,
+    "hasHorizontalOverflow": false,
+    "headerWrap": {
+      "width": 726,
+      "height": 79.98333740234375
+    },
+    "headerImg": {
+      "width": 1349.9833984375,
+      "height": 79.98333740234375
+    },
+    "mainWidth": 726,
+    "shellWidth": 726,
+    "calendarWidth": 680.6666259765625,
+    "scheduleTableWidth": 644.6666259765625,
+    "scheduleHeadDisplay": "table-header-group",
+    "scheduleRowDisplay": "table-row"
+  },
+  {
+    "pageKey": "reserve_classlist",
+    "width": 1280,
+    "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?ClassYear=2026&ClassMonth=6&ClassDate=29&School=5221",
+    "innerWidth": 1280,
+    "scrollWidth": 1280,
+    "hasHorizontalOverflow": false,
+    "headerWrap": {
+      "width": 1024,
+      "height": 80
+    },
+    "headerImg": {
+      "width": 1350,
+      "height": 80
+    },
+    "mainWidth": 1024,
+    "shellWidth": 960,
+    "calendarWidth": 700,
+    "scheduleTableWidth": 914.6666259765625,
+    "scheduleHeadDisplay": "table-header-group",
+    "scheduleRowDisplay": "table-row"
+  }
+]

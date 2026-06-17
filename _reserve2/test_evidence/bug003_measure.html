@@ -1,0 +1,1040 @@
+﻿<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>/* Base variables */
+:root {
+  --bg: #f7f4ef;
+  --surface: #ffffff;
+  --surface-soft: #fff7ee;
+  --border: #e8dfd4;
+  --border-strong: #f2c78d;
+  --text: #24324a;
+  --muted: #667085;
+  --accent: #f39a2d;
+  --accent-soft: #fff1df;
+  --danger: #e45858;
+  --danger-soft: #ffe8e8;
+  --radius-xl: 28px;
+  --radius-lg: 22px;
+  --radius-md: 18px;
+  --radius-sm: 14px;
+  --stack-gap: 24px;
+  --site-header-natural-width: 1350px;
+  --site-header-natural-height: 80px;
+  --site-header-750-scale-width: 1.85950413;
+  --site-header-750-scale-height: 0.11019284;
+}
+
+
+/* Base */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+  color: var(--text);
+  background: #f7f4ef;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#main,
+#mainR {
+  width: min(100% - 32px, 1120px);
+  margin: 0 auto;
+  padding: 32px 0 48px;
+}
+
+h1 {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 0;
+  width: 100%;
+}
+
+h1:not(.site-header) img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  border-radius: 0;
+}
+
+.site-header {
+  width: 100%;
+  height: var(--site-header-natural-height);
+  overflow: hidden;
+  line-height: 0;
+}
+
+.site-header img {
+  display: block;
+  width: var(--site-header-natural-width);
+  height: var(--site-header-natural-height);
+  max-width: none;
+}
+
+.process-breadcrumb {
+  margin-top: 18px;
+  text-align: left;
+}
+
+.process-breadcrumb-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  padding: 0 0 0 16px;
+  list-style: none;
+  color: #667085;
+  font-size: 0.96rem;
+  line-height: 1.5;
+}
+
+.process-breadcrumb-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #667085;
+}
+
+.process-breadcrumb-item.is-current {
+  color: #667085;
+  font-weight: 700;
+}
+
+.process-breadcrumb-separator {
+  color: #c68a33;
+  font-weight: 700;
+}
+
+.process-breadcrumb a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.process-breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+h2,
+h3 {
+  margin: 16px 0 0;
+  padding: 24px 32px;
+  width: auto;
+  height: auto;
+  background: #ffd08b;
+  border: 1px solid #f1c47d;
+  border-radius: var(--radius-xl);
+  color: var(--text);
+  font-size: clamp(1.35rem, 2vw, 1.9rem);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-indent: 0;
+}
+
+
+/* Layout shell */
+
+/* Layout shell */
+.page-shell {
+  background: transparent;
+  border-radius: var(--radius-xl);
+  padding: var(--stack-gap) 0 0;
+}
+
+.page-shell + .page-shell,
+.section-card + .section-card,
+/* index.asp inserts a hidden input before action-row, so this spacing uses a general sibling selector. */
+.course-list ~ .action-row,
+.lesson-list ~ .action-row,
+.copy-text + form .lesson-list,
+.info-panel + .action-row,
+.message-box + .section-card,
+.calendar-layout + .section-card,
+.schedule-grid + .action-row {
+  margin-top: var(--stack-gap);
+}
+
+
+/* Surface blocks */
+
+/* Surface blocks */
+.section-card,
+.message-box,
+.info-panel,
+.schedule-grid,
+.calendar-panel,
+.calendar-guide,
+.course-item,
+.lesson-item,
+.error-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: none;
+  overflow: hidden;
+}
+
+
+/* Surface blocks */
+
+/* Surface blocks */
+.section-card,
+.info-panel,
+.schedule-grid,
+.calendar-guide,
+.error-card {
+  padding: 24px;
+}
+
+
+/* Text */
+
+/* Text */
+.section-title {
+  margin: 0 0 14px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #667085;
+}
+
+.lead,
+.copy-text,
+.notice-list,
+.error-text,
+.empty-state {
+  margin: 0;
+}
+
+.message-box {
+  display: none;
+  padding: 14px 18px;
+  border-color: transparent;
+  background: #fff1f1;
+  color: #9f1d1d;
+  font-weight: 700;
+}
+
+.message-box.is-visible {
+  display: block;
+}
+
+.reservation-message {
+  margin: 0 0 22px;
+  padding: 18px 20px;
+  border: 0;
+  border-radius: var(--radius-md);
+  background: #fff4e4;
+  color: #f39a2d; /* �u���ցv�{�^��(.btn-primary)�Ɠ��F */
+  font-size: 1.35rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+/* Interactive lists */
+
+/* Interactive lists */
+.course-list,
+.lesson-list,
+.action-row,
+.inline-actions,
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+
+/* Interactive lists */
+
+/* Interactive lists */
+.course-list,
+.lesson-list {
+  flex-direction: column;
+}
+
+/* Keep the gap from the intro card to the first course item aligned with the main vertical rhythm. */
+.section-card + form .course-list {
+  margin-top: var(--stack-gap);
+}
+
+.course-item,
+.lesson-item {
+  padding: 18px 20px;
+}
+
+.choice-control {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.choice-control input[type="radio"] {
+  margin-top: 3px;
+  accent-color: var(--accent);
+  inline-size: 20px;
+  block-size: 20px;
+  cursor: pointer;
+  flex: 0 0 auto;
+}
+
+.choice-control input[type="radio"]:disabled {
+  cursor: default;
+}
+
+.choice-title,
+.lesson-title {
+  display: block;
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: #667085;
+}
+
+.choice-meta,
+.lesson-meta,
+.helper-text,
+.copyright,
+.muted {
+  color: var(--muted);
+}
+
+.choice-meta,
+.lesson-meta,
+.helper-text {
+  display: block;
+  font-size: 0.94rem;
+}
+
+.action-row {
+  justify-content: center;
+}
+
+.cancel-empty-actions {
+  margin-top: 24px;
+}
+
+.btn,
+input[type="submit"],
+input[type="button"],
+button,
+select {
+  font: inherit;
+}
+
+.btn,
+.btn-link,
+button.action-button,
+a.action-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  padding: 0 22px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.18s ease, border-color 0.18s ease, color 0.18s ease;
+}
+
+.btn-primary {
+  background: #f39a2d;
+  color: #fff;
+  border-color: #f39a2d;
+}
+
+.btn-secondary {
+  background: #fff4f4;
+  color: var(--danger);
+  border-color: #f4caca;
+}
+
+.btn-danger {
+  background: var(--danger-soft);
+  color: var(--danger);
+  border-color: transparent;
+}
+
+.btn-neutral {
+  background: #f3f4f6;
+  color: var(--text);
+  border-color: transparent;
+}
+
+.form-select {
+  width: 100%;
+  min-height: 52px;
+  padding: 0 16px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: #fff;
+  color: var(--text);
+}
+
+.form-field {
+  display: grid;
+  gap: 10px;
+}
+
+.form-label {
+  font-weight: 700;
+  color: #667085;
+}
+
+/* Reserve form spacing in main.asp */
+.school-select-field {
+  margin-top: var(--stack-gap);
+  gap: 8px;
+}
+
+.school-reserve-actions {
+  margin-top: var(--stack-gap);
+}
+
+
+/* Notice / emphasis */
+
+/* Notice / emphasis */
+.strong {
+  color: #667085;
+  font-weight: 700;
+}
+
+.blue {
+  color: #314e86;
+}
+
+#attention,
+.notice-box {
+  padding: 16px 18px;
+  border-radius: var(--radius-md);
+  background: var(--surface-soft);
+  border: 1px solid #f3d7a8;
+  color: #8a5a14;
+}
+
+.notice-list {
+  padding-left: 1.2em;
+}
+
+.notice-list li + li {
+  margin-top: 4px;
+}
+
+
+/* Calendar / schedule */
+
+/* Calendar / schedule */
+.calendar-layout {
+  display: grid;
+  grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);
+  gap: 20px;
+  align-items: start;
+}
+
+.calendar-panel {
+  overflow: hidden;
+}
+
+.calendar-panel > * {
+  width: 100%;
+}
+
+.schedule-grid {
+  overflow: hidden;
+  padding: 0;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.schedule-table thead th {
+  padding: 14px 12px;
+  text-align: left;
+  font-size: 0.92rem;
+  color: #667085;
+  background: #ffd08b;
+}
+
+.schedule-table thead th:first-child {
+  border-top-left-radius: var(--radius-lg);
+}
+
+.schedule-table thead th:last-child {
+  border-top-right-radius: var(--radius-lg);
+}
+
+.schedule-table tbody td {
+  padding: 16px 12px;
+  border-top: 1px solid #efe7dc;
+  vertical-align: middle;
+  background: #fff;
+}
+
+.schedule-table .muted {
+  color: #000000;
+}
+
+.schedule-choice-label {
+  display: block;
+  width: 100%;
+  min-height: 32px;
+  cursor: default;
+}
+
+.schedule-table tr:has(input[type="radio"]:not(:disabled)) .schedule-choice-label {
+  cursor: pointer;
+}
+
+.schedule-table input[type="radio"]:disabled {
+  cursor: default;
+}
+
+.schedule-table tbody tr:last-child td:first-child {
+  border-bottom-left-radius: var(--radius-lg);
+}
+
+.schedule-table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: var(--radius-lg);
+}
+
+.status-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 0 12px;
+  border-radius: 999px;
+  background: #fff1f1;
+  color: var(--danger);
+  font-size: 0.86rem;
+  font-weight: 700;
+  border: 1px solid #f4caca;
+}
+
+.lesson-item.is-disabled {
+  background: #f8f7f4;
+}
+
+.lesson-item.is-disabled .lesson-title,
+.lesson-item.is-disabled .lesson-meta {
+  opacity: 0.76;
+}
+
+.empty-state {
+  padding: 8px;
+  border-radius: var(--radius-md);
+  background: #f9f7f2;
+  color: var(--muted);
+  text-align: center;
+}
+
+.error-card {
+  display: grid;
+  grid-template-columns: 88px minmax(0, 1fr);
+  gap: 20px;
+  align-items: center;
+}
+
+.error-card-body {
+  display: grid;
+  gap: 20px;
+}
+
+.error-card img {
+  justify-self: center;
+  border-radius: var(--radius-md);
+}
+
+.error-actions {
+  justify-content: center;
+  padding-top: 4px;
+}
+
+.copyright {
+  margin-top: 26px;
+  text-align: center;
+  font-size: 0.82rem;
+}
+
+
+/* Legacy compatibility hooks
+   ?SP/?????????????????????????????????? */
+
+/* Legacy compatibility hooks
+   ?SP/?????????????????????????????????? */
+.legacy-actions,
+.legacy-divider,
+#formtable,
+.Question,
+.SelectCourse {
+  all: unset;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+
+/* Responsive */
+
+/* Responsive */
+@media (max-width: 900px) {
+  #main,
+  #mainR {
+    width: min(100% - 24px, 1120px);
+    padding-top: 20px;
+  }
+
+  .page-shell,
+  .section-card,
+  .info-panel,
+  .schedule-grid,
+  .calendar-guide,
+  .error-card {
+    padding: 18px;
+  }
+
+  .calendar-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media (min-width: 751px) and (max-width: 900px) {
+  .site-header {
+    height: calc((100vw - 24px) * var(--site-header-natural-height) / var(--site-header-natural-width));
+  }
+
+  .site-header img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 750px) {
+  /* Scale the 750px viewport crop instead of revealing the full header image. */
+  .site-header {
+    height: calc((100vw - 24px) * var(--site-header-750-scale-height));
+  }
+
+  .site-header img {
+    width: calc((100vw - 24px) * var(--site-header-750-scale-width));
+    height: calc((100vw - 24px) * var(--site-header-750-scale-height));
+    max-width: none;
+  }
+
+  h2,
+  h3 {
+    padding: 20px;
+    font-size: 1.2rem;
+  }
+
+  .action-row,
+  .button-group,
+  .inline-actions {
+    flex-direction: column;
+  }
+
+  /* On small screens, show the primary action first. */
+  .action-row {
+    flex-direction: column-reverse;
+  }
+
+  .action-row .btn,
+  .button-group .btn,
+  .inline-actions .btn,
+  .action-row a,
+  .action-row button,
+  .button-group a,
+  .button-group button {
+    width: 100%;
+  }
+
+  .schedule-table,
+  .schedule-table thead,
+  .schedule-table tbody,
+  .schedule-table th,
+  .schedule-table td,
+  .schedule-table tr {
+    display: block;
+  }
+
+  .schedule-table thead {
+    display: none;
+  }
+
+  .schedule-table tbody {
+    display: grid;
+    gap: 14px;
+    padding: 8px;
+  }
+
+  .schedule-table tbody tr {
+    background: #fff7eb;
+    border: 1px solid #f3d7a8;
+    border-radius: var(--radius-md);
+    padding: 8px;
+    overflow: hidden;
+  }
+
+  .reserve-page .schedule-table tbody tr {
+    background: rgba(255, 255, 255, 0.42);
+    border: 0;
+  }
+
+  .schedule-table tbody td {
+    padding: 0;
+    border: none;
+    background: transparent;
+  }
+
+  .schedule-table tbody td + td {
+    margin-top: 8px;
+  }
+
+  .schedule-table tbody td::before {
+    content: attr(data-label);
+    display: block;
+    margin-bottom: 2px;
+    color: var(--muted);
+    font-size: 0.82rem;
+    font-weight: 700;
+  }
+
+  .schedule-table tbody td:first-child::before,
+  .schedule-table tbody td:last-child::before {
+    content: "";
+    display: none;
+  }
+
+  .error-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .error-actions {
+    justify-content: center;
+    padding-top: 0;
+  }
+}
+
+
+
+.single-base-page .page-shell {
+  width: min(100%, 640px);
+  margin: 48px auto 0;
+  padding: 28px 30px 26px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+}
+
+.single-base-page .section-card,
+.single-base-page .info-panel,
+.single-base-page .course-item,
+.single-base-page .lesson-item {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  overflow: visible;
+}
+
+.single-base-page .section-card,
+.single-base-page .info-panel {
+  padding: 0;
+}
+
+.single-base-page .section-card + .section-card {
+  margin-top: 34px;
+  padding-top: 30px;
+  border-top: 0;
+}
+
+.single-base-page .course-list,
+.single-base-page .lesson-list {
+  gap: 0;
+  border: 0;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: var(--surface-soft);
+}
+
+.single-base-page .course-item,
+.single-base-page .lesson-item {
+  padding: 16px 18px;
+}
+
+.single-base-page .course-item + .course-item,
+.single-base-page .lesson-item + .lesson-item {
+  border-top: 0;
+}
+
+.single-base-page .lesson-item.is-disabled {
+  background: rgba(255, 255, 255, 0.42);
+}
+
+.single-base-page .lead + form .course-list {
+  margin-top: 20px;
+}
+
+.single-base-page .section-card + form .course-list {
+  margin-top: 20px;
+}
+
+.single-base-page .school-select-field {
+  margin-top: 18px;
+}
+
+
+.single-base-page .copy-text,
+.single-base-page .lead,
+.single-base-page .choice-title,
+.single-base-page .choice-meta,
+.single-base-page .lesson-title,
+.single-base-page .lesson-meta,
+.single-base-page .copyright {
+  overflow-wrap: anywhere;
+}
+
+.single-base-page .copyright {
+  margin-top: 22px;
+}
+
+/* Reserve page layout variants */
+
+/* Reserve page layout variants */
+/* Reserve pages use a different width model from index/main, so their layout variants are grouped here. */
+.calendar-layout-intro {
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 28px;
+  margin-top: 48px;
+}
+
+.calendar-panel-intro {
+  width: min(100%, 230px);
+  min-height: 120px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calendar-guide-intro {
+  width: min(100%, 560px);
+  text-align: center;
+  padding: 36px 32px;
+}
+
+.calendar-guide-intro .copy-text + .copy-text {
+  margin-top: 8px;
+}
+
+.calendar-guide-intro .action-row {
+  margin-top: 20px;
+}
+
+.calendar-guide-intro .strong {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.calendar-guide-stacked .section-title {
+  color: #667085;
+}
+
+.calendar-layout-stacked {
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.calendar-panel-stacked {
+  width: min(100%, 230px);
+  min-height: 120px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calendar-guide-stacked,
+.schedule-card,
+.reserve-actions-card {
+  width: min(100%, 560px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.schedule-card {
+  margin-top: 24px;
+}
+
+.reserve-actions-card {
+  margin-top: 20px;
+}
+
+.reserve-actions-card .action-row {
+  margin-top: 0;
+}
+
+.reserve-page .page-shell {
+  width: min(100%, 560px);
+  margin: 48px auto 0;
+  padding: 8px 22px 24px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+}
+
+.reserve-page .calendar-layout-stacked,
+.reserve-page .calendar-layout-intro {
+  margin-top: 0;
+  gap: 24px;
+}
+
+.reserve-page .calendar-panel,
+.reserve-page .calendar-guide,
+.reserve-page .section-card,
+.reserve-page .schedule-grid,
+.reserve-page .reserve-actions-card {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  overflow: visible;
+}
+
+.reserve-page .calendar-guide,
+.reserve-page .section-card,
+.reserve-page .reserve-actions-card {
+  padding: 0;
+}
+
+.reserve-page .calendar-panel-stacked,
+.reserve-page .calendar-panel-intro {
+  padding: 0;
+}
+
+.reserve-page .notice-box {
+  margin-top: 16px;
+  border: 0;
+}
+
+.reserve-page .schedule-card {
+  margin-top: 32px;
+}
+
+.reserve-page .schedule-grid {
+  overflow: hidden;
+  border: 0;
+  border-radius: var(--radius-lg);
+  background: var(--surface-soft);
+}
+
+.reserve-page .schedule-table tbody td {
+  border-top: 0;
+  background: transparent;
+}
+
+.reserve-page .schedule-table thead th {
+  background: rgba(255, 208, 139, 0.58);
+}
+
+.reserve-page .reserve-actions-card {
+  margin-top: 28px;
+}
+
+.reserve-page .copyright {
+  margin-top: 18px;
+}
+
+@media (max-width: 640px) {
+  .calendar-guide-stacked,
+  .schedule-card,
+  .reserve-actions-card {
+    width: 100%;
+  }
+
+  .reserve-page .page-shell {
+    margin-top: 28px;
+    padding: 8px 16px 22px;
+  }
+}
+
+
+/* Shared final sizing for intro and stacked panels is collected here as the last override. */
+.calendar-panel-stacked,
+.calendar-panel-intro {
+  width: min(100%, 560px);
+  min-height: 0;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style><body><div id="main"><h1 class="site-header"><img src="../images/header-img_135080.jpg" width="1350" height="80" alt="header"></h1></div></body>

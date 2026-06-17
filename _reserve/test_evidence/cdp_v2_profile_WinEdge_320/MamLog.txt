@@ -1,0 +1,12 @@
+[2026-06-09T01:24:04.825Z] [INFO] ========================================================================================================================
+[2026-06-09T01:24:04.825Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 149.0.4022.52
+SDK: 2.1.367.0
+OS: windows 10.0.26200.8457
+DeviceType: Desktop
+Manufacturer: Dell Inc.
+Model: OptiPlex 3080
+Telemetry: yes
+Managed device support: enabled
+[2026-06-09T01:24:04.825Z] [INFO] Telemetry session b0f0f28f-c30d-498c-902d-a0a7bbef9925.
+[2026-06-09T01:24:04.825Z] [INFO] Initializing cache (v1).

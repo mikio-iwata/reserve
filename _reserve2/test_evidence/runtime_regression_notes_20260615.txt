@@ -1,0 +1,23 @@
+﻿C1-03 actual: index.asp displayed 2 radio choices (オンラインレッスン＆WEBセミナー / オンラインチャイナ).
+C1-04 actual: error.asp?Message=コースが選択されていません。 reached.
+C1-05 actual: main.asp reached after selecting オンラインレッスン＆WEBセミナー.
+C2-01 actual: remaining lesson count displayed as 17 and school select rendered.
+C2-03 actual: error.asp?Message=学校名が選択されていないようです。 reached.
+C2-04 actual: reserve.asp?School=5221 reached.
+C2-05 actual: returning to main.asp after reservation showed ハオオンライン校 selected.
+C2-07 actual: CourseType=2 session but cancel list displayed only time; text_name / lesson_name were blank in data/UI.
+C2-09 actual: error.asp?Message=キャンセルするクラスが選択されていないようです。 reached.
+C2-10 actual: cancellation message displayed, remaining count returned 16 -> 17.
+C2-11 actual: 戻る button visible while CourseNumber=2.
+C3-01 actual: intro text 日付を選択してください displayed on initial reserve.asp.
+C3-02 actual: month navigation verified by opening 2026-07-01 and July calendar rendered with prev/next links.
+C3-03 actual: clicking 2026-06-29 displayed class list.
+C3-06 actual: 2026-07-01 showed 該当日の開講予定クラスはありません。
+C3-07 actual: 2026-06-29 12:00〜12:50 showed 予約可能 and radio enabled.
+C3-10 actual: 2026-06-29 14:00〜14:50 showed 予約済 and radio disabled.
+C3-12 actual: error.asp?Message=予約するクラスが選択されていないようです。 reached.
+C3-13 actual: reservation message displayed after clicking 12:00〜12:50 label and reserving.
+DB baseline/restored (class 6629ni, course 61, uid 3070): cls_mirror_total=6, cls_total=6, les_count=0.
+DB after reserve (class 6629ni, course 61, uid 3070): cls_mirror_total=5, cls_total=5, les_count=1.
+DB after cancel (class 6629ni, course 61, uid 3070): cls_mirror_total=6, cls_total=6, les_count=0.
+Log check: C:\log\hao\student_reservation.txt recorded reserve/cancel updates; D:\Inetpub\haolog\lesson_reserve_cancel.log not created, and app log recorded error 71 ディスクは準備されていません。

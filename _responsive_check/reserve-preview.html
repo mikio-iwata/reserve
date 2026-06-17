@@ -1,0 +1,107 @@
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head><base href="file:///C:/sources/asp/netcampus/hao/work/reserve/">
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ハオ中国語アカデミー　予約・キャンセルシステム</title>
+<link href="etc/style.css" rel="stylesheet" type="text/css" media="all">
+<link href="etc/calendar.css" rel="stylesheet" type="text/css"  media="all">
+<script type="text/javascript" language="javascript" src="etc/calendar.js"></script>
+</head>
+<body>
+<div id="mainR">
+<h1><img src="images/form_header_wide.gif" width="600" height="34" alt="ハオ中国語アカデミー"></h1>
+<h3>レッスンの予約―<span class="blue"></span></h3>
+<table id="formtable" class="stack-table">
+  <tr>
+    <td class="calendar-cell" align="left" valign="top"><script type="text/javascript">ShowCalendar();</script></td>
+    <td valign="top">
+
+      <table id="formtable">
+	<tr>
+	  <td><p>
+
+	  <span class="strong"></span>が選択されました。<br>
+
+	    左のカレンダーより予約希望の日付をクリックしてください。<br></p>
+	  </td>
+	</tr>
+      </table>
+      <table id="formtable" align="center">
+	<tr>
+	  <td class="action-row" height="100"><a href=""><img src="images/back.gif" width="105" height="49" alt="戻る" border="0"></a></td>
+	</tr>
+      </table>
+
+
+      <table id="formtable">
+	<tr>
+	  <td><p><span class="strong"></span></p><p><span class="strong">年月日()　</span>で開講予定の<font color = "blue"> </font>は
+
+	    ありません。<br></p>
+	  </td>
+	</tr>
+      </table>
+      <table id="formtable" align="center">
+	<tr>
+	  <td class="action-row" height="100"><a href=""><img src="images/back.gif" width="105" height="49" alt="戻る" border="0"></a></td>
+	</tr>
+      </table>
+
+	下記のとおりです。ご予約希望のクラスを選択し「予約」ボタンを押してください。<br><br>ただし、下記のクラスはご予約できません。<br>　　・クラスの始まる時間前を過ぎたクラス<br>　　・満席のクラス<br>　　・ご予約済クラスと同じ時間に開講されるクラス</p>
+	  </td>
+	</tr>
+      </table>
+<form action="?ClassYear=&ClassMonth=&ClassDate=&School=" method="post">
+      <table class="lesson-list" border="0" cellspacing="0" cellpadding="0" align="center">
+	<tr class="lesson-header">
+	  <td width="30" align="left"></td>
+	  <td width="100" align="left">レッスン時刻</td>
+
+	  <td></td>
+	</tr>
+
+	  <td>
+
+		<input type="radio" name="ReserveCls" value=""
+>
+
+	  </td>
+	  <td>:～:</td>
+	  <td></td>
+	  <td>
+
+	  </td>
+	</tr>
+
+      </table>
+      <table id="formtable" align="center">
+	<tr>
+	  <td class="action-row" height="100"><a href=""><img src="images/back.gif" width="105" height="49" alt="戻る" border="0"></a><input type="image" src="images/reserve.gif" width="105" height="49" alt="予約" border="0"></td>
+	</tr>
+<input type="hidden" name="action" value="Reserve">
+</form>
+      </table>
+
+    </td>
+  </tr>
+</table>
+<table id="formtable">
+  <tr>
+    <td height="20" valign="bottom"><img src="images/dot_gray.gif" width="600" height="1"></td>
+  </tr>
+  <tr>
+    <td class="copyright">Copyright 2007 HAO Chinese Academy. All rights reserved.</td>
+  </tr>
+</table>
+</div>
+</body>
+</html>
+

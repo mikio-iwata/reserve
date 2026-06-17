@@ -1,0 +1,373 @@
+﻿[
+    {
+        "browser":  "WinEdge",
+        "width":  320,
+        "metrics":  {
+                        "innerWidth":  476,
+                        "scrollWidth":  476,
+                        "clientWidth":  476,
+                        "bodyScrollWidth":  476,
+                        "hasHorizontalOverflow":  false,
+                        "header":  {
+                                       "w":  452,
+                                       "h":  49.796875,
+                                       "x":  12,
+                                       "y":  20,
+                                       "right":  464,
+                                       "bottom":  69.796875
+                                   },
+                        "headerImg":  {
+                                          "w":  840.484375,
+                                          "h":  49.796875,
+                                          "x":  12,
+                                          "y":  20,
+                                          "right":  852.484375,
+                                          "bottom":  69.796875
+                                      },
+                        "errorCard":  {
+                                          "w":  416,
+                                          "h":  416.375,
+                                          "x":  30,
+                                          "y":  176.515625,
+                                          "right":  446,
+                                          "bottom":  592.890625
+                                      },
+                        "buttons":  [
+                                        {
+                                            "text":  "戻る",
+                                            "w":  378,
+                                            "h":  50,
+                                            "x":  49,
+                                            "y":  523.890625
+                                        },
+                                        {
+                                            "text":  "閉じる",
+                                            "w":  378,
+                                            "h":  50,
+                                            "x":  49,
+                                            "y":  459.890625
+                                        }
+                                    ],
+                        "buttonCenterDelta":  0,
+                        "bodyText":  "予約・キャンセルシステム\n\n大変申し訳ありません。\nサーバとの接続が切断されました。\n恐れ入りますがもう一度ログインを行ってください。\n\n戻る\n閉じる"
+                    }
+    },
+    {
+        "browser":  "WinEdge",
+        "width":  375,
+        "metrics":  {
+                        "innerWidth":  476,
+                        "scrollWidth":  476,
+                        "clientWidth":  476,
+                        "bodyScrollWidth":  476,
+                        "hasHorizontalOverflow":  false,
+                        "header":  {
+                                       "w":  452,
+                                       "h":  49.796875,
+                                       "x":  12,
+                                       "y":  20,
+                                       "right":  464,
+                                       "bottom":  69.796875
+                                   },
+                        "headerImg":  {
+                                          "w":  840.484375,
+                                          "h":  49.796875,
+                                          "x":  12,
+                                          "y":  20,
+                                          "right":  852.484375,
+                                          "bottom":  69.796875
+                                      },
+                        "errorCard":  {
+                                          "w":  416,
+                                          "h":  416.375,
+                                          "x":  30,
+                                          "y":  176.515625,
+                                          "right":  446,
+                                          "bottom":  592.890625
+                                      },
+                        "buttons":  [
+                                        {
+                                            "text":  "戻る",
+                                            "w":  378,
+                                            "h":  50,
+                                            "x":  49,
+                                            "y":  523.890625
+                                        },
+                                        {
+                                            "text":  "閉じる",
+                                            "w":  378,
+                                            "h":  50,
+                                            "x":  49,
+                                            "y":  459.890625
+                                        }
+                                    ],
+                        "buttonCenterDelta":  0,
+                        "bodyText":  "予約・キャンセルシステム\n\n大変申し訳ありません。\nサーバとの接続が切断されました。\n恐れ入りますがもう一度ログインを行ってください。\n\n戻る\n閉じる"
+                    }
+    },
+    {
+        "browser":  "WinEdge",
+        "width":  768,
+        "metrics":  {
+                        "innerWidth":  744,
+                        "scrollWidth":  744,
+                        "clientWidth":  744,
+                        "bodyScrollWidth":  744,
+                        "hasHorizontalOverflow":  false,
+                        "header":  {
+                                       "w":  720,
+                                       "h":  79.328125,
+                                       "x":  12,
+                                       "y":  20,
+                                       "right":  732,
+                                       "bottom":  99.328125
+                                   },
+                        "headerImg":  {
+                                          "w":  1338.828125,
+                                          "h":  79.328125,
+                                          "x":  12,
+                                          "y":  20,
+                                          "right":  1350.828125,
+                                          "bottom":  99.328125
+                                      },
+                        "errorCard":  {
+                                          "w":  684,
+                                          "h":  390.78125,
+                                          "x":  30,
+                                          "y":  206.046875,
+                                          "right":  714,
+                                          "bottom":  596.828125
+                                      },
+                        "buttons":  [
+                                        {
+                                            "text":  "戻る",
+                                            "w":  646,
+                                            "h":  50,
+                                            "x":  49,
+                                            "y":  527.828125
+                                        },
+                                        {
+                                            "text":  "閉じる",
+                                            "w":  646,
+                                            "h":  50,
+                                            "x":  49,
+                                            "y":  463.828125
+                                        }
+                                    ],
+                        "buttonCenterDelta":  0,
+                        "bodyText":  "予約・キャンセルシステム\n\n大変申し訳ありません。\nサーバとの接続が切断されました。\n恐れ入りますがもう一度ログインを行ってください。\n\n戻る\n閉じる"
+                    }
+    },
+    {
+        "browser":  "WinEdge",
+        "width":  900,
+        "metrics":  {
+                        "innerWidth":  876,
+                        "scrollWidth":  876,
+                        "clientWidth":  876,
+                        "bodyScrollWidth":  876,
+                        "hasHorizontalOverflow":  false,
+                        "header":  {
+                                       "w":  852,
+                                       "h":  80,
+                                       "x":  12,
+                                       "y":  20,
+                                       "right":  864,
+                                       "bottom":  100
+                                   },
+                        "headerImg":  {
+                                          "w":  1350,
+                                          "h":  80,
+                                          "x":  12,
+                                          "y":  20,
+                                          "right":  1362,
+                                          "bottom":  100
+                                      },
+                        "errorCard":  {
+                                          "w":  816,
+                                          "h":  188.78125,
+                                          "x":  30,
+                                          "y":  218.546875,
+                                          "right":  846,
+                                          "bottom":  407.328125
+                                      },
+                        "buttons":  [
+                                        {
+                                            "text":  "戻る",
+                                            "w":  78,
+                                            "h":  50,
+                                            "x":  399,
+                                            "y":  338.328125
+                                        },
+                                        {
+                                            "text":  "閉じる",
+                                            "w":  94,
+                                            "h":  50,
+                                            "x":  491,
+                                            "y":  338.328125
+                                        }
+                                    ],
+                        "buttonCenterDelta":  100,
+                        "bodyText":  "予約・キャンセルシステム\n\n大変申し訳ありません。\nサーバとの接続が切断されました。\n恐れ入りますがもう一度ログインを行ってください。\n\n戻る\n閉じる"
+                    }
+    },
+    {
+        "browser":  "WinEdge",
+        "width":  1024,
+        "metrics":  {
+                        "innerWidth":  1000,
+                        "scrollWidth":  1000,
+                        "clientWidth":  1000,
+                        "bodyScrollWidth":  1000,
+                        "hasHorizontalOverflow":  false,
+                        "header":  {
+                                       "w":  968,
+                                       "h":  80,
+                                       "x":  16,
+                                       "y":  32,
+                                       "right":  984,
+                                       "bottom":  112
+                                   },
+                        "headerImg":  {
+                                          "w":  1350,
+                                          "h":  80,
+                                          "x":  16,
+                                          "y":  32,
+                                          "right":  1366,
+                                          "bottom":  112
+                                      },
+                        "errorCard":  {
+                                          "w":  968,
+                                          "h":  200.78125,
+                                          "x":  16,
+                                          "y":  236.546875,
+                                          "right":  984,
+                                          "bottom":  437.328125
+                                      },
+                        "buttons":  [
+                                        {
+                                            "text":  "戻る",
+                                            "w":  78,
+                                            "h":  50,
+                                            "x":  461,
+                                            "y":  362.328125
+                                        },
+                                        {
+                                            "text":  "閉じる",
+                                            "w":  94,
+                                            "h":  50,
+                                            "x":  553,
+                                            "y":  362.328125
+                                        }
+                                    ],
+                        "buttonCenterDelta":  100,
+                        "bodyText":  "予約・キャンセルシステム\n\n大変申し訳ありません。\nサーバとの接続が切断されました。\n恐れ入りますがもう一度ログインを行ってください。\n\n戻る\n閉じる"
+                    }
+    },
+    {
+        "browser":  "WinEdge",
+        "width":  1280,
+        "metrics":  {
+                        "innerWidth":  1256,
+                        "scrollWidth":  1256,
+                        "clientWidth":  1256,
+                        "bodyScrollWidth":  1256,
+                        "hasHorizontalOverflow":  false,
+                        "header":  {
+                                       "w":  1120,
+                                       "h":  80,
+                                       "x":  68,
+                                       "y":  32,
+                                       "right":  1188,
+                                       "bottom":  112
+                                   },
+                        "headerImg":  {
+                                          "w":  1350,
+                                          "h":  80,
+                                          "x":  68,
+                                          "y":  32,
+                                          "right":  1418,
+                                          "bottom":  112
+                                      },
+                        "errorCard":  {
+                                          "w":  1120,
+                                          "h":  200.78125,
+                                          "x":  68,
+                                          "y":  242.1875,
+                                          "right":  1188,
+                                          "bottom":  442.96875
+                                      },
+                        "buttons":  [
+                                        {
+                                            "text":  "戻る",
+                                            "w":  78,
+                                            "h":  50,
+                                            "x":  589,
+                                            "y":  367.96875
+                                        },
+                                        {
+                                            "text":  "閉じる",
+                                            "w":  94,
+                                            "h":  50,
+                                            "x":  681,
+                                            "y":  367.96875
+                                        }
+                                    ],
+                        "buttonCenterDelta":  100,
+                        "bodyText":  "予約・キャンセルシステム\n\n大変申し訳ありません。\nサーバとの接続が切断されました。\n恐れ入りますがもう一度ログインを行ってください。\n\n戻る\n閉じる"
+                    }
+    },
+    {
+        "browser":  "WinEdge",
+        "width":  1920,
+        "metrics":  {
+                        "innerWidth":  1896,
+                        "scrollWidth":  1896,
+                        "clientWidth":  1896,
+                        "bodyScrollWidth":  1896,
+                        "hasHorizontalOverflow":  false,
+                        "header":  {
+                                       "w":  1120,
+                                       "h":  80,
+                                       "x":  388,
+                                       "y":  32,
+                                       "right":  1508,
+                                       "bottom":  112
+                                   },
+                        "headerImg":  {
+                                          "w":  1350,
+                                          "h":  80,
+                                          "x":  388,
+                                          "y":  32,
+                                          "right":  1738,
+                                          "bottom":  112
+                                      },
+                        "errorCard":  {
+                                          "w":  1120,
+                                          "h":  200.78125,
+                                          "x":  388,
+                                          "y":  250.640625,
+                                          "right":  1508,
+                                          "bottom":  451.421875
+                                      },
+                        "buttons":  [
+                                        {
+                                            "text":  "戻る",
+                                            "w":  78,
+                                            "h":  50,
+                                            "x":  909,
+                                            "y":  376.421875
+                                        },
+                                        {
+                                            "text":  "閉じる",
+                                            "w":  94,
+                                            "h":  50,
+                                            "x":  1001,
+                                            "y":  376.421875
+                                        }
+                                    ],
+                        "buttonCenterDelta":  100,
+                        "bodyText":  "予約・キャンセルシステム\n\n大変申し訳ありません。\nサーバとの接続が切断されました。\n恐れ入りますがもう一度ログインを行ってください。\n\n戻る\n閉じる"
+                    }
+    }
+]

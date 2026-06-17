@@ -1,0 +1,4062 @@
+{
+  "all": [
+    {
+      "browserName": "chrome",
+      "screen": "main",
+      "width": 375,
+      "phase": "core",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/main.asp",
+        "innerWidth": 750,
+        "innerHeight": 1800,
+        "scrollWidth": 751,
+        "clientWidth": 751,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 12,
+          "y": 20,
+          "width": 1350,
+          "height": 80,
+          "right": 1362,
+          "bottom": 100
+        },
+        "mainRect": {
+          "x": 12,
+          "y": 0,
+          "width": 726.6666870117188,
+          "height": 1127.0208740234375,
+          "right": 738.6666870117188,
+          "bottom": 1127.0208740234375
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n\nレッスンの予約\n\nオンラインレッスン＆WEBセミナー のご予約可能回数は、あと 17 回です。受講希望の学校名を選択し、「次へ」を押してください。\n\n受講希望の学校\n----お選び下さい----\nハオオンライン校\n戻る\n次へ\n\nレッスンのキャンセル\n\nオンラインレッスン＆WEBセミナー でご予約済のレッスンは下記のとおりです。",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 109.66667175292969,
+              "y": 863.6666870117188,
+              "width": 20,
+              "height": 20,
+              "top": 863.6666870117188,
+              "right": 129.6666717529297,
+              "bottom": 883.6666870117188,
+              "left": 109.66667175292969
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 279.66668701171875,
+              "y": 486.125,
+              "width": 88.66667175292969,
+              "height": 50,
+              "top": 486.125,
+              "right": 368.33335876464844,
+              "bottom": 536.125,
+              "left": 279.66668701171875
+            }
+          },
+          {
+            "text": "次へ",
+            "rect": {
+              "x": 382.3333435058594,
+              "y": 486.125,
+              "width": 88.66667175292969,
+              "height": 50,
+              "top": 486.125,
+              "right": 471.00001525878906,
+              "bottom": 536.125,
+              "left": 382.3333435058594
+            }
+          },
+          {
+            "text": "キャンセルする",
+            "rect": {
+              "x": 278.91668701171875,
+              "y": 934.9166870117188,
+              "width": 192.83334350585938,
+              "height": 50,
+              "top": 934.9166870117188,
+              "right": 471.7500305175781,
+              "bottom": 984.9166870117188,
+              "left": 278.91668701171875
+            }
+          }
+        ],
+        "selectRects": [
+          {
+            "name": "School",
+            "value": "5221",
+            "rect": {
+              "x": 86.66667175292969,
+              "y": 410.125,
+              "width": 577.3333740234375,
+              "height": 52,
+              "top": 410.125,
+              "right": 664.0000457763672,
+              "bottom": 462.125,
+              "left": 86.66667175292969
+            }
+          }
+        ],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 12,
+              "y": 20,
+              "width": 1350,
+              "height": 80,
+              "top": 20,
+              "right": 1362,
+              "bottom": 100,
+              "left": 12
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\chrome_main_375_core_20260617.png"
+    },
+    {
+      "browserName": "chrome",
+      "screen": "reserve_intro",
+      "width": 375,
+      "phase": "core",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?School=5221",
+        "innerWidth": 750,
+        "innerHeight": 1800,
+        "scrollWidth": 751,
+        "clientWidth": 751,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 12,
+          "y": 20,
+          "width": 1350,
+          "height": 80,
+          "right": 1362,
+          "bottom": 100
+        },
+        "mainRect": {
+          "x": 12,
+          "y": 0,
+          "width": 726.6666870117188,
+          "height": 1180.3958740234375,
+          "right": 738.6666870117188,
+          "bottom": 1180.3958740234375
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n＞\nクラス選択\n　\t2026年6月\t\n»\n\n天\t一\t二\t三\t四\t五\t六\n　\t1\t2\t3\t4\t5\t6\n7\t8\t9\t10\t11\t12\t13\n14\t15\t16\t\n17\n\t\n18\n\t\n19\n\t\n20\n\n\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\n\n28\n\t\n29\n\t\n30\n\t　\t　\t　\t　\n\n日付を選択してくだ",
+        "radios": [],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 331,
+              "y": 994.2916870117188,
+              "width": 88.66667175292969,
+              "height": 50,
+              "top": 994.2916870117188,
+              "right": 419.6666717529297,
+              "bottom": 1044.2916870117188,
+              "left": 331
+            }
+          }
+        ],
+        "selectRects": [],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 12,
+              "y": 20,
+              "width": 1350,
+              "height": 80,
+              "top": 20,
+              "right": 1362,
+              "bottom": 100,
+              "left": 12
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\chrome_reserve_intro_375_core_20260617.png"
+    },
+    {
+      "browserName": "chrome",
+      "screen": "reserve_list",
+      "width": 375,
+      "phase": "core",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?ClassYear=2026&ClassMonth=6&ClassDate=29&School=5221",
+        "innerWidth": 750,
+        "innerHeight": 1800,
+        "scrollWidth": 751,
+        "clientWidth": 751,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 12,
+          "y": 20,
+          "width": 1350,
+          "height": 80,
+          "right": 1362,
+          "bottom": 100
+        },
+        "mainRect": {
+          "x": 12,
+          "y": 0,
+          "width": 726.6666870117188,
+          "height": 1595.8125,
+          "right": 738.6666870117188,
+          "bottom": 1595.8125
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n＞\nクラス選択\n　\t2026年6月\t\n»\n\n天\t一\t二\t三\t四\t五\t六\n　\t1\t2\t3\t4\t5\t6\n7\t8\t9\t10\t11\t12\t13\n14\t15\t16\t\n17\n\t\n18\n\t\n19\n\t\n20\n\n\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\n\n28\n\t\n29\n\t\n30\n\t　\t　\t　\t　\n\n予約可能なクラス\n",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": true,
+            "rect": {
+              "x": 70.33333587646484,
+              "y": 1262.7083740234375,
+              "width": 13,
+              "height": 13,
+              "top": 1262.7083740234375,
+              "right": 83.33333587646484,
+              "bottom": 1275.7083740234375,
+              "left": 70.33333587646484
+            }
+          },
+          {
+            "value": "6629z6",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 70.33333587646484,
+              "y": 1326.7083740234375,
+              "width": 13,
+              "height": 13,
+              "top": 1326.7083740234375,
+              "right": 83.33333587646484,
+              "bottom": 1339.7083740234375,
+              "left": 70.33333587646484
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 259.0833435058594,
+              "y": 1409.7083740234375,
+              "width": 88.66667175292969,
+              "height": 50,
+              "top": 1409.7083740234375,
+              "right": 347.75001525878906,
+              "bottom": 1459.7083740234375,
+              "left": 259.0833435058594
+            }
+          },
+          {
+            "text": "予約する",
+            "rect": {
+              "x": 361.75,
+              "y": 1409.7083740234375,
+              "width": 129.83334350585938,
+              "height": 50,
+              "top": 1409.7083740234375,
+              "right": 491.5833435058594,
+              "bottom": 1459.7083740234375,
+              "left": 361.75
+            }
+          }
+        ],
+        "selectRects": [],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 12,
+              "y": 20,
+              "width": 1350,
+              "height": 80,
+              "top": 20,
+              "right": 1362,
+              "bottom": 100,
+              "left": 12
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\chrome_reserve_list_375_core_20260617.png"
+    },
+    {
+      "browserName": "chrome",
+      "screen": "main",
+      "width": 768,
+      "phase": "core",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/main.asp",
+        "innerWidth": 1536,
+        "innerHeight": 1800,
+        "scrollWidth": 1536,
+        "clientWidth": 1536,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 208,
+          "y": 32,
+          "width": 1350,
+          "height": 80,
+          "right": 1558,
+          "bottom": 112
+        },
+        "mainRect": {
+          "x": 208,
+          "y": 0,
+          "width": 1120,
+          "height": 1038.2708740234375,
+          "right": 1328,
+          "bottom": 1038.2708740234375
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n\nレッスンの予約\n\nオンラインレッスン＆WEBセミナー のご予約可能回数は、あと 17 回です。受講希望の学校名を選択し、「次へ」を押してください。\n\n受講希望の学校\n----お選び下さい----\nハオオンライン校\n戻る\n次へ\n\nレッスンのキャンセル\n\nオンラインレッスン＆WEBセミナー でご予約済のレッスンは下記のとおりです。",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 342.3333435058594,
+              "y": 774.9166870117188,
+              "width": 20,
+              "height": 20,
+              "top": 774.9166870117188,
+              "right": 362.3333435058594,
+              "bottom": 794.9166870117188,
+              "left": 342.3333435058594
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 672.3333740234375,
+              "y": 464.54168701171875,
+              "width": 88.66667175292969,
+              "height": 50,
+              "top": 464.54168701171875,
+              "right": 761.0000457763672,
+              "bottom": 514.5416870117188,
+              "left": 672.3333740234375
+            }
+          },
+          {
+            "text": "次へ",
+            "rect": {
+              "x": 775,
+              "y": 464.54168701171875,
+              "width": 88.66667175292969,
+              "height": 50,
+              "top": 464.54168701171875,
+              "right": 863.6666717529297,
+              "bottom": 514.5416870117188,
+              "left": 775
+            }
+          },
+          {
+            "text": "キャンセルする",
+            "rect": {
+              "x": 671.5833740234375,
+              "y": 846.1666870117188,
+              "width": 192.83334350585938,
+              "height": 50,
+              "top": 846.1666870117188,
+              "right": 864.4167175292969,
+              "bottom": 896.1666870117188,
+              "left": 671.5833740234375
+            }
+          }
+        ],
+        "selectRects": [
+          {
+            "name": "School",
+            "value": "5221",
+            "rect": {
+              "x": 319.3333435058594,
+              "y": 388.54168701171875,
+              "width": 897.3333740234375,
+              "height": 52,
+              "top": 388.54168701171875,
+              "right": 1216.6667175292969,
+              "bottom": 440.54168701171875,
+              "left": 319.3333435058594
+            }
+          }
+        ],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 208,
+              "y": 32,
+              "width": 1350,
+              "height": 80,
+              "top": 32,
+              "right": 1558,
+              "bottom": 112,
+              "left": 208
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\chrome_main_768_core_20260617.png"
+    },
+    {
+      "browserName": "chrome",
+      "screen": "reserve_intro",
+      "width": 768,
+      "phase": "core",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?School=5221",
+        "innerWidth": 1536,
+        "innerHeight": 1800,
+        "scrollWidth": 1536,
+        "clientWidth": 1536,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 208,
+          "y": 32,
+          "width": 1350,
+          "height": 80,
+          "right": 1558,
+          "bottom": 112
+        },
+        "mainRect": {
+          "x": 208,
+          "y": 0,
+          "width": 1120,
+          "height": 1192.3958740234375,
+          "right": 1328,
+          "bottom": 1192.3958740234375
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n＞\nクラス選択\n　\t2026年6月\t\n»\n\n天\t一\t二\t三\t四\t五\t六\n　\t1\t2\t3\t4\t5\t6\n7\t8\t9\t10\t11\t12\t13\n14\t15\t16\t\n17\n\t\n18\n\t\n19\n\t\n20\n\n\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\n\n28\n\t\n29\n\t\n30\n\t　\t　\t　\t　\n\n日付を選択してくだ",
+        "radios": [],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 723.6666870117188,
+              "y": 1006.2916870117188,
+              "width": 88.66667175292969,
+              "height": 50,
+              "top": 1006.2916870117188,
+              "right": 812.3333587646484,
+              "bottom": 1056.2916870117188,
+              "left": 723.6666870117188
+            }
+          }
+        ],
+        "selectRects": [],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 208,
+              "y": 32,
+              "width": 1350,
+              "height": 80,
+              "top": 32,
+              "right": 1558,
+              "bottom": 112,
+              "left": 208
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\chrome_reserve_intro_768_core_20260617.png"
+    },
+    {
+      "browserName": "chrome",
+      "screen": "reserve_list",
+      "width": 768,
+      "phase": "core",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?ClassYear=2026&ClassMonth=6&ClassDate=29&School=5221",
+        "innerWidth": 1536,
+        "innerHeight": 1800,
+        "scrollWidth": 1536,
+        "clientWidth": 1536,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 208,
+          "y": 32,
+          "width": 1350,
+          "height": 80,
+          "right": 1558,
+          "bottom": 112
+        },
+        "mainRect": {
+          "x": 208,
+          "y": 0,
+          "width": 1120,
+          "height": 1571.8125,
+          "right": 1328,
+          "bottom": 1571.8125
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n＞\nクラス選択\n　\t2026年6月\t\n»\n\n天\t一\t二\t三\t四\t五\t六\n　\t1\t2\t3\t4\t5\t6\n7\t8\t9\t10\t11\t12\t13\n14\t15\t16\t\n17\n\t\n18\n\t\n19\n\t\n20\n\n\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\n\n28\n\t\n29\n\t\n30\n\t　\t　\t　\t　\n\n予約可能なクラス\n",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": true,
+            "rect": {
+              "x": 328.3333435058594,
+              "y": 1256.7083740234375,
+              "width": 13,
+              "height": 13,
+              "top": 1256.7083740234375,
+              "right": 341.3333435058594,
+              "bottom": 1269.7083740234375,
+              "left": 328.3333435058594
+            }
+          },
+          {
+            "value": "6629z6",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 328.3333435058594,
+              "y": 1320.7083740234375,
+              "width": 13,
+              "height": 13,
+              "top": 1320.7083740234375,
+              "right": 341.3333435058594,
+              "bottom": 1333.7083740234375,
+              "left": 328.3333435058594
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 651.75,
+              "y": 1385.7083740234375,
+              "width": 88.66667175292969,
+              "height": 50,
+              "top": 1385.7083740234375,
+              "right": 740.4166717529297,
+              "bottom": 1435.7083740234375,
+              "left": 651.75
+            }
+          },
+          {
+            "text": "予約する",
+            "rect": {
+              "x": 754.4166870117188,
+              "y": 1385.7083740234375,
+              "width": 129.83334350585938,
+              "height": 50,
+              "top": 1385.7083740234375,
+              "right": 884.2500305175781,
+              "bottom": 1435.7083740234375,
+              "left": 754.4166870117188
+            }
+          }
+        ],
+        "selectRects": [],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 208,
+              "y": 32,
+              "width": 1350,
+              "height": 80,
+              "top": 32,
+              "right": 1558,
+              "bottom": 112,
+              "left": 208
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\chrome_reserve_list_768_core_20260617.png"
+    },
+    {
+      "browserName": "chrome",
+      "screen": "main",
+      "width": 1280,
+      "phase": "core",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/main.asp",
+        "innerWidth": 2560,
+        "innerHeight": 1800,
+        "scrollWidth": 2560,
+        "clientWidth": 2560,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 720,
+          "y": 32,
+          "width": 1350,
+          "height": 80,
+          "right": 2070,
+          "bottom": 112
+        },
+        "mainRect": {
+          "x": 720,
+          "y": 0,
+          "width": 1120,
+          "height": 1038.2708740234375,
+          "right": 1840,
+          "bottom": 1038.2708740234375
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n\nレッスンの予約\n\nオンラインレッスン＆WEBセミナー のご予約可能回数は、あと 17 回です。受講希望の学校名を選択し、「次へ」を押してください。\n\n受講希望の学校\n----お選び下さい----\nハオオンライン校\n戻る\n次へ\n\nレッスンのキャンセル\n\nオンラインレッスン＆WEBセミナー でご予約済のレッスンは下記のとおりです。",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 854.3333740234375,
+              "y": 774.9166870117188,
+              "width": 20,
+              "height": 20,
+              "top": 774.9166870117188,
+              "right": 874.3333740234375,
+              "bottom": 794.9166870117188,
+              "left": 854.3333740234375
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 1184.3333740234375,
+              "y": 464.54168701171875,
+              "width": 88.66667175292969,
+              "height": 50,
+              "top": 464.54168701171875,
+              "right": 1273.0000457763672,
+              "bottom": 514.5416870117188,
+              "left": 1184.3333740234375
+            }
+          },
+          {
+            "text": "次へ",
+            "rect": {
+              "x": 1287,
+              "y": 464.54168701171875,
+              "width": 88.66667175292969,
+              "height": 50,
+              "top": 464.54168701171875,
+              "right": 1375.6666717529297,
+              "bottom": 514.5416870117188,
+              "left": 1287
+            }
+          },
+          {
+            "text": "キャンセルする",
+            "rect": {
+              "x": 1183.5833740234375,
+              "y": 846.1666870117188,
+              "width": 192.83334350585938,
+              "height": 50,
+              "top": 846.1666870117188,
+              "right": 1376.4167175292969,
+              "bottom": 896.1666870117188,
+              "left": 1183.5833740234375
+            }
+          }
+        ],
+        "selectRects": [
+          {
+            "name": "School",
+            "value": "5221",
+            "rect": {
+              "x": 831.3333740234375,
+              "y": 388.54168701171875,
+              "width": 897.3333740234375,
+              "height": 52,
+              "top": 388.54168701171875,
+              "right": 1728.666748046875,
+              "bottom": 440.54168701171875,
+              "left": 831.3333740234375
+            }
+          }
+        ],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 720,
+              "y": 32,
+              "width": 1350,
+              "height": 80,
+              "top": 32,
+              "right": 2070,
+              "bottom": 112,
+              "left": 720
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\chrome_main_1280_core_20260617.png"
+    },
+    {
+      "browserName": "chrome",
+      "screen": "reserve_intro",
+      "width": 1280,
+      "phase": "core",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?School=5221",
+        "innerWidth": 2560,
+        "innerHeight": 1800,
+        "scrollWidth": 2560,
+        "clientWidth": 2560,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 720,
+          "y": 32,
+          "width": 1350,
+          "height": 80,
+          "right": 2070,
+          "bottom": 112
+        },
+        "mainRect": {
+          "x": 720,
+          "y": 0,
+          "width": 1120,
+          "height": 1192.3958740234375,
+          "right": 1840,
+          "bottom": 1192.3958740234375
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n＞\nクラス選択\n　\t2026年6月\t\n»\n\n天\t一\t二\t三\t四\t五\t六\n　\t1\t2\t3\t4\t5\t6\n7\t8\t9\t10\t11\t12\t13\n14\t15\t16\t\n17\n\t\n18\n\t\n19\n\t\n20\n\n\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\n\n28\n\t\n29\n\t\n30\n\t　\t　\t　\t　\n\n日付を選択してくだ",
+        "radios": [],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 1235.666748046875,
+              "y": 1006.2916870117188,
+              "width": 88.66667175292969,
+              "height": 50,
+              "top": 1006.2916870117188,
+              "right": 1324.3334197998047,
+              "bottom": 1056.2916870117188,
+              "left": 1235.666748046875
+            }
+          }
+        ],
+        "selectRects": [],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 720,
+              "y": 32,
+              "width": 1350,
+              "height": 80,
+              "top": 32,
+              "right": 2070,
+              "bottom": 112,
+              "left": 720
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\chrome_reserve_intro_1280_core_20260617.png"
+    },
+    {
+      "browserName": "chrome",
+      "screen": "reserve_list",
+      "width": 1280,
+      "phase": "core",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?ClassYear=2026&ClassMonth=6&ClassDate=29&School=5221",
+        "innerWidth": 2560,
+        "innerHeight": 1800,
+        "scrollWidth": 2560,
+        "clientWidth": 2560,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 720,
+          "y": 32,
+          "width": 1350,
+          "height": 80,
+          "right": 2070,
+          "bottom": 112
+        },
+        "mainRect": {
+          "x": 720,
+          "y": 0,
+          "width": 1120,
+          "height": 1571.8125,
+          "right": 1840,
+          "bottom": 1571.8125
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n＞\nクラス選択\n　\t2026年6月\t\n»\n\n天\t一\t二\t三\t四\t五\t六\n　\t1\t2\t3\t4\t5\t6\n7\t8\t9\t10\t11\t12\t13\n14\t15\t16\t\n17\n\t\n18\n\t\n19\n\t\n20\n\n\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\n\n28\n\t\n29\n\t\n30\n\t　\t　\t　\t　\n\n予約可能なクラス\n",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": true,
+            "rect": {
+              "x": 840.3333740234375,
+              "y": 1256.7083740234375,
+              "width": 13,
+              "height": 13,
+              "top": 1256.7083740234375,
+              "right": 853.3333740234375,
+              "bottom": 1269.7083740234375,
+              "left": 840.3333740234375
+            }
+          },
+          {
+            "value": "6629z6",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 840.3333740234375,
+              "y": 1320.7083740234375,
+              "width": 13,
+              "height": 13,
+              "top": 1320.7083740234375,
+              "right": 853.3333740234375,
+              "bottom": 1333.7083740234375,
+              "left": 840.3333740234375
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 1163.75,
+              "y": 1385.7083740234375,
+              "width": 88.66667175292969,
+              "height": 50,
+              "top": 1385.7083740234375,
+              "right": 1252.4166717529297,
+              "bottom": 1435.7083740234375,
+              "left": 1163.75
+            }
+          },
+          {
+            "text": "予約する",
+            "rect": {
+              "x": 1266.416748046875,
+              "y": 1385.7083740234375,
+              "width": 129.83334350585938,
+              "height": 50,
+              "top": 1385.7083740234375,
+              "right": 1396.2500915527344,
+              "bottom": 1435.7083740234375,
+              "left": 1266.416748046875
+            }
+          }
+        ],
+        "selectRects": [],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 720,
+              "y": 32,
+              "width": 1350,
+              "height": 80,
+              "top": 32,
+              "right": 2070,
+              "bottom": 112,
+              "left": 720
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\chrome_reserve_list_1280_core_20260617.png"
+    },
+    {
+      "browserName": "chrome",
+      "screen": "main",
+      "width": 320,
+      "phase": "edge",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/main.asp",
+        "innerWidth": 640,
+        "innerHeight": 1800,
+        "scrollWidth": 640,
+        "clientWidth": 640,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 12,
+          "y": 20,
+          "width": 1145.4375,
+          "height": 67.875,
+          "right": 1157.4375,
+          "bottom": 87.875
+        },
+        "mainRect": {
+          "x": 12,
+          "y": 0,
+          "width": 616,
+          "height": 1165.9375,
+          "right": 628,
+          "bottom": 1165.9375
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\nレッスン予約システム コースの選択\n予約・キャンセル\n\nレッスンの予約\n\nオンラインレッスン＆WEBセミナー のご予約可能回数は、あと 17 回です。受講希望の学校名を選択し、「次へ」を押してください。\n\n受講希望の学校\n----お選び下さい----\nハオオンライン校\n戻る\n次へ\n\nレッスンのキャンセル\n\nオンラインレッスン＆WEBセミナー でご予約済のレッスンは下記のとおりです。キャンセ",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 66.33333587646484,
+              "y": 902.5833740234375,
+              "width": 20,
+              "height": 20,
+              "top": 902.5833740234375,
+              "right": 86.33333587646484,
+              "bottom": 922.5833740234375,
+              "left": 66.33333587646484
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 43.333335876464844,
+              "y": 525.0416870117188,
+              "width": 553.3333740234375,
+              "height": 50,
+              "top": 525.0416870117188,
+              "right": 596.6667098999023,
+              "bottom": 575.0416870117188,
+              "left": 43.333335876464844
+            }
+          },
+          {
+            "text": "次へ",
+            "rect": {
+              "x": 43.333335876464844,
+              "y": 461.04168701171875,
+              "width": 553.3333740234375,
+              "height": 50,
+              "top": 461.04168701171875,
+              "right": 596.6667098999023,
+              "bottom": 511.04168701171875,
+              "left": 43.333335876464844
+            }
+          },
+          {
+            "text": "キャンセルする",
+            "rect": {
+              "x": 43.333335876464844,
+              "y": 973.8333740234375,
+              "width": 553.3333740234375,
+              "height": 50,
+              "top": 973.8333740234375,
+              "right": 596.6667098999023,
+              "bottom": 1023.8333740234375,
+              "left": 43.333335876464844
+            }
+          }
+        ],
+        "selectRects": [
+          {
+            "name": "School",
+            "value": "5221",
+            "rect": {
+              "x": 43.333335876464844,
+              "y": 385.04168701171875,
+              "width": 553.3333740234375,
+              "height": 52,
+              "top": 385.04168701171875,
+              "right": 596.6667098999023,
+              "bottom": 437.04168701171875,
+              "left": 43.333335876464844
+            }
+          }
+        ],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 12,
+              "y": 20,
+              "width": 1145.4375,
+              "height": 67.875,
+              "top": 20,
+              "right": 1157.4375,
+              "bottom": 87.875,
+              "left": 12
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\chrome_main_320_edge_20260617.png"
+    },
+    {
+      "browserName": "chrome",
+      "screen": "reserve_intro",
+      "width": 320,
+      "phase": "edge",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?School=5221",
+        "innerWidth": 640,
+        "innerHeight": 1800,
+        "scrollWidth": 640,
+        "clientWidth": 640,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 12,
+          "y": 20,
+          "width": 1145.4375,
+          "height": 67.875,
+          "right": 1157.4375,
+          "bottom": 87.875
+        },
+        "mainRect": {
+          "x": 12,
+          "y": 0,
+          "width": 616,
+          "height": 1182.8958740234375,
+          "right": 628,
+          "bottom": 1182.8958740234375
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\nレッスン予約システム コースの選択\n予約・キャンセル\nクラス選択\n　\t2026年6月\t\n»\n\n天\t一\t二\t三\t四\t五\t六\n　\t1\t2\t3\t4\t5\t6\n7\t8\t9\t10\t11\t12\t13\n14\t15\t16\t\n17\n\t\n18\n\t\n19\n\t\n20\n\n\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\n\n28\n\t\n29\n\t\n30\n\t　\t　\t　\t　\n\n日付を選択してください\n\nハオ",
+        "radios": [],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 29.33333396911621,
+              "y": 998.7916870117188,
+              "width": 581.3333740234375,
+              "height": 50,
+              "top": 998.7916870117188,
+              "right": 610.6667079925537,
+              "bottom": 1048.7916870117188,
+              "left": 29.33333396911621
+            }
+          }
+        ],
+        "selectRects": [],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 12,
+              "y": 20,
+              "width": 1145.4375,
+              "height": 67.875,
+              "top": 20,
+              "right": 1157.4375,
+              "bottom": 87.875,
+              "left": 12
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\chrome_reserve_intro_320_edge_20260617.png"
+    },
+    {
+      "browserName": "chrome",
+      "screen": "reserve_list",
+      "width": 320,
+      "phase": "edge",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?ClassYear=2026&ClassMonth=6&ClassDate=29&School=5221",
+        "innerWidth": 640,
+        "innerHeight": 1800,
+        "scrollWidth": 609,
+        "clientWidth": 609,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 12,
+          "y": 20,
+          "width": 1145.4375,
+          "height": 67.875,
+          "right": 1157.4375,
+          "bottom": 87.875
+        },
+        "mainRect": {
+          "x": 12,
+          "y": 0,
+          "width": 585.3333740234375,
+          "height": 1868.0625,
+          "right": 597.3333740234375,
+          "bottom": 1868.0625
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\nレッスン予約システム コースの選択\n予約・キャンセル\nクラス選択\n　\t2026年6月\t\n»\n\n天\t一\t二\t三\t四\t五\t六\n　\t1\t2\t3\t4\t5\t6\n7\t8\t9\t10\t11\t12\t13\n14\t15\t16\t\n17\n\t\n18\n\t\n19\n\t\n20\n\n\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\n\n28\n\t\n29\n\t\n30\n\t　\t　\t　\t　\n\n予約可能なクラス\n\n2026年",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": true,
+            "rect": {
+              "x": 79.83333587646484,
+              "y": 1174.9583740234375,
+              "width": 13,
+              "height": 13,
+              "top": 1174.9583740234375,
+              "right": 92.83333587646484,
+              "bottom": 1187.9583740234375,
+              "left": 79.83333587646484
+            }
+          },
+          {
+            "value": "6629z6",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 79.83333587646484,
+              "y": 1386.9583740234375,
+              "width": 13,
+              "height": 13,
+              "top": 1386.9583740234375,
+              "right": 92.83333587646484,
+              "bottom": 1399.9583740234375,
+              "left": 79.83333587646484
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 29.33333396911621,
+              "y": 1683.9583740234375,
+              "width": 550.6666870117188,
+              "height": 50,
+              "top": 1683.9583740234375,
+              "right": 580.000020980835,
+              "bottom": 1733.9583740234375,
+              "left": 29.33333396911621
+            }
+          },
+          {
+            "text": "予約する",
+            "rect": {
+              "x": 29.33333396911621,
+              "y": 1619.9583740234375,
+              "width": 550.6666870117188,
+              "height": 50,
+              "top": 1619.9583740234375,
+              "right": 580.000020980835,
+              "bottom": 1669.9583740234375,
+              "left": 29.33333396911621
+            }
+          }
+        ],
+        "selectRects": [],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 12,
+              "y": 20,
+              "width": 1145.4375,
+              "height": 67.875,
+              "top": 20,
+              "right": 1157.4375,
+              "bottom": 87.875,
+              "left": 12
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\chrome_reserve_list_320_edge_20260617.png"
+    },
+    {
+      "browserName": "chrome",
+      "screen": "main",
+      "width": 900,
+      "phase": "edge",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/main.asp",
+        "innerWidth": 1800,
+        "innerHeight": 1800,
+        "scrollWidth": 1800,
+        "clientWidth": 1800,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 340,
+          "y": 32,
+          "width": 1350,
+          "height": 80,
+          "right": 1690,
+          "bottom": 112
+        },
+        "mainRect": {
+          "x": 340,
+          "y": 0,
+          "width": 1120,
+          "height": 1038.2708740234375,
+          "right": 1460,
+          "bottom": 1038.2708740234375
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n\nレッスンの予約\n\nオンラインレッスン＆WEBセミナー のご予約可能回数は、あと 17 回です。受講希望の学校名を選択し、「次へ」を押してください。\n\n受講希望の学校\n----お選び下さい----\nハオオンライン校\n戻る\n次へ\n\nレッスンのキャンセル\n\nオンラインレッスン＆WEBセミナー でご予約済のレッスンは下記のとおりです。",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 474.3333435058594,
+              "y": 774.9166870117188,
+              "width": 20,
+              "height": 20,
+              "top": 774.9166870117188,
+              "right": 494.3333435058594,
+              "bottom": 794.9166870117188,
+              "left": 474.3333435058594
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 804.3333740234375,
+              "y": 464.54168701171875,
+              "width": 88.66667175292969,
+              "height": 50,
+              "top": 464.54168701171875,
+              "right": 893.0000457763672,
+              "bottom": 514.5416870117188,
+              "left": 804.3333740234375
+            }
+          },
+          {
+            "text": "次へ",
+            "rect": {
+              "x": 907,
+              "y": 464.54168701171875,
+              "width": 88.66667175292969,
+              "height": 50,
+              "top": 464.54168701171875,
+              "right": 995.6666717529297,
+              "bottom": 514.5416870117188,
+              "left": 907
+            }
+          },
+          {
+            "text": "キャンセルする",
+            "rect": {
+              "x": 803.5833740234375,
+              "y": 846.1666870117188,
+              "width": 192.83334350585938,
+              "height": 50,
+              "top": 846.1666870117188,
+              "right": 996.4167175292969,
+              "bottom": 896.1666870117188,
+              "left": 803.5833740234375
+            }
+          }
+        ],
+        "selectRects": [
+          {
+            "name": "School",
+            "value": "5221",
+            "rect": {
+              "x": 451.3333435058594,
+              "y": 388.54168701171875,
+              "width": 897.3333740234375,
+              "height": 52,
+              "top": 388.54168701171875,
+              "right": 1348.6667175292969,
+              "bottom": 440.54168701171875,
+              "left": 451.3333435058594
+            }
+          }
+        ],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 340,
+              "y": 32,
+              "width": 1350,
+              "height": 80,
+              "top": 32,
+              "right": 1690,
+              "bottom": 112,
+              "left": 340
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\chrome_main_900_edge_20260617.png"
+    },
+    {
+      "browserName": "chrome",
+      "screen": "reserve_intro",
+      "width": 900,
+      "phase": "edge",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?School=5221",
+        "innerWidth": 1800,
+        "innerHeight": 1800,
+        "scrollWidth": 1800,
+        "clientWidth": 1800,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 340,
+          "y": 32,
+          "width": 1350,
+          "height": 80,
+          "right": 1690,
+          "bottom": 112
+        },
+        "mainRect": {
+          "x": 340,
+          "y": 0,
+          "width": 1120,
+          "height": 1192.3958740234375,
+          "right": 1460,
+          "bottom": 1192.3958740234375
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n＞\nクラス選択\n　\t2026年6月\t\n»\n\n天\t一\t二\t三\t四\t五\t六\n　\t1\t2\t3\t4\t5\t6\n7\t8\t9\t10\t11\t12\t13\n14\t15\t16\t\n17\n\t\n18\n\t\n19\n\t\n20\n\n\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\n\n28\n\t\n29\n\t\n30\n\t　\t　\t　\t　\n\n日付を選択してくだ",
+        "radios": [],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 855.6666870117188,
+              "y": 1006.2916870117188,
+              "width": 88.66667175292969,
+              "height": 50,
+              "top": 1006.2916870117188,
+              "right": 944.3333587646484,
+              "bottom": 1056.2916870117188,
+              "left": 855.6666870117188
+            }
+          }
+        ],
+        "selectRects": [],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 340,
+              "y": 32,
+              "width": 1350,
+              "height": 80,
+              "top": 32,
+              "right": 1690,
+              "bottom": 112,
+              "left": 340
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\chrome_reserve_intro_900_edge_20260617.png"
+    },
+    {
+      "browserName": "chrome",
+      "screen": "reserve_list",
+      "width": 900,
+      "phase": "edge",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?ClassYear=2026&ClassMonth=6&ClassDate=29&School=5221",
+        "innerWidth": 1800,
+        "innerHeight": 1800,
+        "scrollWidth": 1800,
+        "clientWidth": 1800,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 340,
+          "y": 32,
+          "width": 1350,
+          "height": 80,
+          "right": 1690,
+          "bottom": 112
+        },
+        "mainRect": {
+          "x": 340,
+          "y": 0,
+          "width": 1120,
+          "height": 1571.8125,
+          "right": 1460,
+          "bottom": 1571.8125
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n＞\nクラス選択\n　\t2026年6月\t\n»\n\n天\t一\t二\t三\t四\t五\t六\n　\t1\t2\t3\t4\t5\t6\n7\t8\t9\t10\t11\t12\t13\n14\t15\t16\t\n17\n\t\n18\n\t\n19\n\t\n20\n\n\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\n\n28\n\t\n29\n\t\n30\n\t　\t　\t　\t　\n\n予約可能なクラス\n",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": true,
+            "rect": {
+              "x": 460.3333435058594,
+              "y": 1256.7083740234375,
+              "width": 13,
+              "height": 13,
+              "top": 1256.7083740234375,
+              "right": 473.3333435058594,
+              "bottom": 1269.7083740234375,
+              "left": 460.3333435058594
+            }
+          },
+          {
+            "value": "6629z6",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 460.3333435058594,
+              "y": 1320.7083740234375,
+              "width": 13,
+              "height": 13,
+              "top": 1320.7083740234375,
+              "right": 473.3333435058594,
+              "bottom": 1333.7083740234375,
+              "left": 460.3333435058594
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 783.75,
+              "y": 1385.7083740234375,
+              "width": 88.66667175292969,
+              "height": 50,
+              "top": 1385.7083740234375,
+              "right": 872.4166717529297,
+              "bottom": 1435.7083740234375,
+              "left": 783.75
+            }
+          },
+          {
+            "text": "予約する",
+            "rect": {
+              "x": 886.4166870117188,
+              "y": 1385.7083740234375,
+              "width": 129.83334350585938,
+              "height": 50,
+              "top": 1385.7083740234375,
+              "right": 1016.2500305175781,
+              "bottom": 1435.7083740234375,
+              "left": 886.4166870117188
+            }
+          }
+        ],
+        "selectRects": [],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 340,
+              "y": 32,
+              "width": 1350,
+              "height": 80,
+              "top": 32,
+              "right": 1690,
+              "bottom": 112,
+              "left": 340
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\chrome_reserve_list_900_edge_20260617.png"
+    },
+    {
+      "browserName": "chrome",
+      "screen": "main",
+      "width": 1920,
+      "phase": "edge",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/main.asp",
+        "innerWidth": 3840,
+        "innerHeight": 1800,
+        "scrollWidth": 3840,
+        "clientWidth": 3840,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 1360,
+          "y": 32,
+          "width": 1350,
+          "height": 80,
+          "right": 2710,
+          "bottom": 112
+        },
+        "mainRect": {
+          "x": 1360,
+          "y": 0,
+          "width": 1120,
+          "height": 1038.2708740234375,
+          "right": 2480,
+          "bottom": 1038.2708740234375
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n\nレッスンの予約\n\nオンラインレッスン＆WEBセミナー のご予約可能回数は、あと 17 回です。受講希望の学校名を選択し、「次へ」を押してください。\n\n受講希望の学校\n----お選び下さい----\nハオオンライン校\n戻る\n次へ\n\nレッスンのキャンセル\n\nオンラインレッスン＆WEBセミナー でご予約済のレッスンは下記のとおりです。",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 1494.3333740234375,
+              "y": 774.9166870117188,
+              "width": 20,
+              "height": 20,
+              "top": 774.9166870117188,
+              "right": 1514.3333740234375,
+              "bottom": 794.9166870117188,
+              "left": 1494.3333740234375
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 1824.3333740234375,
+              "y": 464.54168701171875,
+              "width": 88.66667175292969,
+              "height": 50,
+              "top": 464.54168701171875,
+              "right": 1913.0000457763672,
+              "bottom": 514.5416870117188,
+              "left": 1824.3333740234375
+            }
+          },
+          {
+            "text": "次へ",
+            "rect": {
+              "x": 1927,
+              "y": 464.54168701171875,
+              "width": 88.66667175292969,
+              "height": 50,
+              "top": 464.54168701171875,
+              "right": 2015.6666717529297,
+              "bottom": 514.5416870117188,
+              "left": 1927
+            }
+          },
+          {
+            "text": "キャンセルする",
+            "rect": {
+              "x": 1823.5833740234375,
+              "y": 846.1666870117188,
+              "width": 192.83334350585938,
+              "height": 50,
+              "top": 846.1666870117188,
+              "right": 2016.4167175292969,
+              "bottom": 896.1666870117188,
+              "left": 1823.5833740234375
+            }
+          }
+        ],
+        "selectRects": [
+          {
+            "name": "School",
+            "value": "5221",
+            "rect": {
+              "x": 1471.3333740234375,
+              "y": 388.54168701171875,
+              "width": 897.3333740234375,
+              "height": 52,
+              "top": 388.54168701171875,
+              "right": 2368.666748046875,
+              "bottom": 440.54168701171875,
+              "left": 1471.3333740234375
+            }
+          }
+        ],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 1360,
+              "y": 32,
+              "width": 1350,
+              "height": 80,
+              "top": 32,
+              "right": 2710,
+              "bottom": 112,
+              "left": 1360
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\chrome_main_1920_edge_20260617.png"
+    },
+    {
+      "browserName": "chrome",
+      "screen": "reserve_intro",
+      "width": 1920,
+      "phase": "edge",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?School=5221",
+        "innerWidth": 3840,
+        "innerHeight": 1800,
+        "scrollWidth": 3840,
+        "clientWidth": 3840,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 1360,
+          "y": 32,
+          "width": 1350,
+          "height": 80,
+          "right": 2710,
+          "bottom": 112
+        },
+        "mainRect": {
+          "x": 1360,
+          "y": 0,
+          "width": 1120,
+          "height": 1192.3958740234375,
+          "right": 2480,
+          "bottom": 1192.3958740234375
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n＞\nクラス選択\n　\t2026年6月\t\n»\n\n天\t一\t二\t三\t四\t五\t六\n　\t1\t2\t3\t4\t5\t6\n7\t8\t9\t10\t11\t12\t13\n14\t15\t16\t\n17\n\t\n18\n\t\n19\n\t\n20\n\n\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\n\n28\n\t\n29\n\t\n30\n\t　\t　\t　\t　\n\n日付を選択してくだ",
+        "radios": [],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 1875.666748046875,
+              "y": 1006.2916870117188,
+              "width": 88.66667175292969,
+              "height": 50,
+              "top": 1006.2916870117188,
+              "right": 1964.3334197998047,
+              "bottom": 1056.2916870117188,
+              "left": 1875.666748046875
+            }
+          }
+        ],
+        "selectRects": [],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 1360,
+              "y": 32,
+              "width": 1350,
+              "height": 80,
+              "top": 32,
+              "right": 2710,
+              "bottom": 112,
+              "left": 1360
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\chrome_reserve_intro_1920_edge_20260617.png"
+    },
+    {
+      "browserName": "chrome",
+      "screen": "reserve_list",
+      "width": 1920,
+      "phase": "edge",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?ClassYear=2026&ClassMonth=6&ClassDate=29&School=5221",
+        "innerWidth": 3840,
+        "innerHeight": 1800,
+        "scrollWidth": 3840,
+        "clientWidth": 3840,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 1360,
+          "y": 32,
+          "width": 1350,
+          "height": 80,
+          "right": 2710,
+          "bottom": 112
+        },
+        "mainRect": {
+          "x": 1360,
+          "y": 0,
+          "width": 1120,
+          "height": 1571.8125,
+          "right": 2480,
+          "bottom": 1571.8125
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n＞\nクラス選択\n　\t2026年6月\t\n»\n\n天\t一\t二\t三\t四\t五\t六\n　\t1\t2\t3\t4\t5\t6\n7\t8\t9\t10\t11\t12\t13\n14\t15\t16\t\n17\n\t\n18\n\t\n19\n\t\n20\n\n\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\n\n28\n\t\n29\n\t\n30\n\t　\t　\t　\t　\n\n予約可能なクラス\n",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": true,
+            "rect": {
+              "x": 1480.3333740234375,
+              "y": 1256.7083740234375,
+              "width": 13,
+              "height": 13,
+              "top": 1256.7083740234375,
+              "right": 1493.3333740234375,
+              "bottom": 1269.7083740234375,
+              "left": 1480.3333740234375
+            }
+          },
+          {
+            "value": "6629z6",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 1480.3333740234375,
+              "y": 1320.7083740234375,
+              "width": 13,
+              "height": 13,
+              "top": 1320.7083740234375,
+              "right": 1493.3333740234375,
+              "bottom": 1333.7083740234375,
+              "left": 1480.3333740234375
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 1803.75,
+              "y": 1385.7083740234375,
+              "width": 88.66667175292969,
+              "height": 50,
+              "top": 1385.7083740234375,
+              "right": 1892.4166717529297,
+              "bottom": 1435.7083740234375,
+              "left": 1803.75
+            }
+          },
+          {
+            "text": "予約する",
+            "rect": {
+              "x": 1906.416748046875,
+              "y": 1385.7083740234375,
+              "width": 129.83334350585938,
+              "height": 50,
+              "top": 1385.7083740234375,
+              "right": 2036.2500915527344,
+              "bottom": 1435.7083740234375,
+              "left": 1906.416748046875
+            }
+          }
+        ],
+        "selectRects": [],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 1360,
+              "y": 32,
+              "width": 1350,
+              "height": 80,
+              "top": 32,
+              "right": 2710,
+              "bottom": 112,
+              "left": 1360
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\chrome_reserve_list_1920_edge_20260617.png"
+    },
+    {
+      "browserName": "chrome",
+      "screen": "main",
+      "width": 375,
+      "phase": "tap",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/main.asp",
+        "innerWidth": 750,
+        "innerHeight": 1800,
+        "scrollWidth": 751,
+        "clientWidth": 751,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 12,
+          "y": 20,
+          "width": 1350,
+          "height": 80,
+          "right": 1362,
+          "bottom": 100
+        },
+        "mainRect": {
+          "x": 12,
+          "y": 0,
+          "width": 726.6666870117188,
+          "height": 1127.0208740234375,
+          "right": 738.6666870117188,
+          "bottom": 1127.0208740234375
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n\nレッスンの予約\n\nオンラインレッスン＆WEBセミナー のご予約可能回数は、あと 17 回です。受講希望の学校名を選択し、「次へ」を押してください。\n\n受講希望の学校\n----お選び下さい----\nハオオンライン校\n戻る\n次へ\n\nレッスンのキャンセル\n\nオンラインレッスン＆WEBセミナー でご予約済のレッスンは下記のとおりです。",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 109.66667175292969,
+              "y": 863.6666870117188,
+              "width": 20,
+              "height": 20,
+              "top": 863.6666870117188,
+              "right": 129.6666717529297,
+              "bottom": 883.6666870117188,
+              "left": 109.66667175292969
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 279.66668701171875,
+              "y": 486.125,
+              "width": 88.66667175292969,
+              "height": 50,
+              "top": 486.125,
+              "right": 368.33335876464844,
+              "bottom": 536.125,
+              "left": 279.66668701171875
+            }
+          },
+          {
+            "text": "次へ",
+            "rect": {
+              "x": 382.3333435058594,
+              "y": 486.125,
+              "width": 88.66667175292969,
+              "height": 50,
+              "top": 486.125,
+              "right": 471.00001525878906,
+              "bottom": 536.125,
+              "left": 382.3333435058594
+            }
+          },
+          {
+            "text": "キャンセルする",
+            "rect": {
+              "x": 278.91668701171875,
+              "y": 934.9166870117188,
+              "width": 192.83334350585938,
+              "height": 50,
+              "top": 934.9166870117188,
+              "right": 471.7500305175781,
+              "bottom": 984.9166870117188,
+              "left": 278.91668701171875
+            }
+          }
+        ],
+        "selectRects": [
+          {
+            "name": "School",
+            "value": "5221",
+            "rect": {
+              "x": 86.66667175292969,
+              "y": 410.125,
+              "width": 577.3333740234375,
+              "height": 52,
+              "top": 410.125,
+              "right": 664.0000457763672,
+              "bottom": 462.125,
+              "left": 86.66667175292969
+            }
+          }
+        ],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 12,
+              "y": 20,
+              "width": 1350,
+              "height": 80,
+              "top": 20,
+              "right": 1362,
+              "bottom": 100,
+              "left": 12
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\chrome_main_375_tap_20260617.png"
+    },
+    {
+      "browserName": "chrome",
+      "screen": "reserve_list",
+      "width": 375,
+      "phase": "tap",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?ClassYear=2026&ClassMonth=6&ClassDate=29&School=5221",
+        "innerWidth": 750,
+        "innerHeight": 1800,
+        "scrollWidth": 751,
+        "clientWidth": 751,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 12,
+          "y": 20,
+          "width": 1350,
+          "height": 80,
+          "right": 1362,
+          "bottom": 100
+        },
+        "mainRect": {
+          "x": 12,
+          "y": 0,
+          "width": 726.6666870117188,
+          "height": 1595.8125,
+          "right": 738.6666870117188,
+          "bottom": 1595.8125
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n＞\nクラス選択\n　\t2026年6月\t\n»\n\n天\t一\t二\t三\t四\t五\t六\n　\t1\t2\t3\t4\t5\t6\n7\t8\t9\t10\t11\t12\t13\n14\t15\t16\t\n17\n\t\n18\n\t\n19\n\t\n20\n\n\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\n\n28\n\t\n29\n\t\n30\n\t　\t　\t　\t　\n\n予約可能なクラス\n",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": true,
+            "rect": {
+              "x": 70.33333587646484,
+              "y": 1262.7083740234375,
+              "width": 13,
+              "height": 13,
+              "top": 1262.7083740234375,
+              "right": 83.33333587646484,
+              "bottom": 1275.7083740234375,
+              "left": 70.33333587646484
+            }
+          },
+          {
+            "value": "6629z6",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 70.33333587646484,
+              "y": 1326.7083740234375,
+              "width": 13,
+              "height": 13,
+              "top": 1326.7083740234375,
+              "right": 83.33333587646484,
+              "bottom": 1339.7083740234375,
+              "left": 70.33333587646484
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 259.0833435058594,
+              "y": 1409.7083740234375,
+              "width": 88.66667175292969,
+              "height": 50,
+              "top": 1409.7083740234375,
+              "right": 347.75001525878906,
+              "bottom": 1459.7083740234375,
+              "left": 259.0833435058594
+            }
+          },
+          {
+            "text": "予約する",
+            "rect": {
+              "x": 361.75,
+              "y": 1409.7083740234375,
+              "width": 129.83334350585938,
+              "height": 50,
+              "top": 1409.7083740234375,
+              "right": 491.5833435058594,
+              "bottom": 1459.7083740234375,
+              "left": 361.75
+            }
+          }
+        ],
+        "selectRects": [],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 12,
+              "y": 20,
+              "width": 1350,
+              "height": 80,
+              "top": 20,
+              "right": 1362,
+              "bottom": 100,
+              "left": 12
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\chrome_reserve_list_375_tap_20260617.png"
+    },
+    {
+      "browserName": "edge",
+      "screen": "main",
+      "width": 375,
+      "phase": "core",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/main.asp",
+        "innerWidth": 375,
+        "innerHeight": 900,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 12,
+          "y": 20,
+          "width": 652.671875,
+          "height": 38.671875,
+          "right": 664.671875,
+          "bottom": 58.671875
+        },
+        "mainRect": {
+          "x": 12,
+          "y": 0,
+          "width": 336,
+          "height": 1421.421875,
+          "right": 348,
+          "bottom": 1421.421875
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\nレッスン予約システム コースの選択\n予約・キャンセル\n\nレッスンの予約\n\nオンラインレッスン＆WEBセミナー のご予約可能回数は、あと 17 回です。受講希望の学校名を選択し、「次へ」を押してください。\n\n受講希望の学校\n----お選び下さい----\nハオオンライン校\n戻る\n次へ\n\nレッスンのキャンセル\n\nオンラインレッスン＆WEBセミナー でご予約済のレッスンは下記のとおりです。キャンセ",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 66,
+              "y": 1096.578125,
+              "width": 20,
+              "height": 20,
+              "top": 1096.578125,
+              "right": 86,
+              "bottom": 1116.578125,
+              "left": 66
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 43,
+              "y": 584.59375,
+              "width": 274,
+              "height": 50,
+              "top": 584.59375,
+              "right": 317,
+              "bottom": 634.59375,
+              "left": 43
+            }
+          },
+          {
+            "text": "次へ",
+            "rect": {
+              "x": 43,
+              "y": 520.59375,
+              "width": 274,
+              "height": 50,
+              "top": 520.59375,
+              "right": 317,
+              "bottom": 570.59375,
+              "left": 43
+            }
+          },
+          {
+            "text": "キャンセルする",
+            "rect": {
+              "x": 43,
+              "y": 1202.109375,
+              "width": 274,
+              "height": 50,
+              "top": 1202.109375,
+              "right": 317,
+              "bottom": 1252.109375,
+              "left": 43
+            }
+          }
+        ],
+        "selectRects": [
+          {
+            "name": "School",
+            "value": "5221",
+            "rect": {
+              "x": 43,
+              "y": 444.59375,
+              "width": 274,
+              "height": 52,
+              "top": 444.59375,
+              "right": 317,
+              "bottom": 496.59375,
+              "left": 43
+            }
+          }
+        ],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 12,
+              "y": 20,
+              "width": 652.671875,
+              "height": 38.671875,
+              "top": 20,
+              "right": 664.671875,
+              "bottom": 58.671875,
+              "left": 12
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\edge_main_375_core_20260617.png"
+    },
+    {
+      "browserName": "edge",
+      "screen": "reserve_intro",
+      "width": 375,
+      "phase": "core",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?School=5221",
+        "innerWidth": 375,
+        "innerHeight": 900,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 12,
+          "y": 20,
+          "width": 652.671875,
+          "height": 38.671875,
+          "right": 664.671875,
+          "bottom": 58.671875
+        },
+        "mainRect": {
+          "x": 12,
+          "y": 0,
+          "width": 336,
+          "height": 1232.71875,
+          "right": 348,
+          "bottom": 1232.71875
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\nレッスン予約システム コースの選択\n予約・キャンセル\nクラス選択\n　\t2026年6月\t\n»\n\n天\t一\t二\t三\t四\t五\t六\n　\t1\t2\t3\t4\t5\t6\n7\t8\t9\t10\t11\t12\t13\n14\t15\t16\t\n17\n\t\n18\n\t\n19\n\t\n20\n\n\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\n\n28\n\t\n29\n\t\n30\n\t　\t　\t　\t　\n\n日付を選択してください\n\nハオ",
+        "radios": [],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 29,
+              "y": 1021.40625,
+              "width": 302,
+              "height": 50,
+              "top": 1021.40625,
+              "right": 331,
+              "bottom": 1071.40625,
+              "left": 29
+            }
+          }
+        ],
+        "selectRects": [],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 12,
+              "y": 20,
+              "width": 652.671875,
+              "height": 38.671875,
+              "top": 20,
+              "right": 664.671875,
+              "bottom": 58.671875,
+              "left": 12
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\edge_reserve_intro_375_core_20260617.png"
+    },
+    {
+      "browserName": "edge",
+      "screen": "reserve_list",
+      "width": 375,
+      "phase": "core",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?ClassYear=2026&ClassMonth=6&ClassDate=29&School=5221",
+        "innerWidth": 375,
+        "innerHeight": 900,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 12,
+          "y": 20,
+          "width": 652.671875,
+          "height": 38.671875,
+          "right": 664.671875,
+          "bottom": 58.671875
+        },
+        "mainRect": {
+          "x": 12,
+          "y": 0,
+          "width": 336,
+          "height": 2014.6875,
+          "right": 348,
+          "bottom": 2014.6875
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\nレッスン予約システム コースの選択\n予約・キャンセル\nクラス選択\n　\t2026年6月\t\n»\n\n天\t一\t二\t三\t四\t五\t六\n　\t1\t2\t3\t4\t5\t6\n7\t8\t9\t10\t11\t12\t13\n14\t15\t16\t\n17\n\t\n18\n\t\n19\n\t\n20\n\n\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\n\n28\n\t\n29\n\t\n30\n\t　\t　\t　\t　\n\n予約可能なクラス\n\n2026年",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": true,
+            "rect": {
+              "x": 79.5,
+              "y": 1298.375,
+              "width": 13,
+              "height": 13,
+              "top": 1298.375,
+              "right": 92.5,
+              "bottom": 1311.375,
+              "left": 79.5
+            }
+          },
+          {
+            "value": "6629z6",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 79.5,
+              "y": 1508.375,
+              "width": 13,
+              "height": 13,
+              "top": 1508.375,
+              "right": 92.5,
+              "bottom": 1521.375,
+              "left": 79.5
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 29,
+              "y": 1803.375,
+              "width": 302,
+              "height": 50,
+              "top": 1803.375,
+              "right": 331,
+              "bottom": 1853.375,
+              "left": 29
+            }
+          },
+          {
+            "text": "予約する",
+            "rect": {
+              "x": 29,
+              "y": 1739.375,
+              "width": 302,
+              "height": 50,
+              "top": 1739.375,
+              "right": 331,
+              "bottom": 1789.375,
+              "left": 29
+            }
+          }
+        ],
+        "selectRects": [],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 12,
+              "y": 20,
+              "width": 652.671875,
+              "height": 38.671875,
+              "top": 20,
+              "right": 664.671875,
+              "bottom": 58.671875,
+              "left": 12
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\edge_reserve_list_375_core_20260617.png"
+    },
+    {
+      "browserName": "edge",
+      "screen": "main",
+      "width": 768,
+      "phase": "core",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/main.asp",
+        "innerWidth": 768,
+        "innerHeight": 900,
+        "scrollWidth": 753,
+        "clientWidth": 753,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 12,
+          "y": 20,
+          "width": 1383.46875,
+          "height": 81.96875,
+          "right": 1395.46875,
+          "bottom": 101.96875
+        },
+        "mainRect": {
+          "x": 12,
+          "y": 0,
+          "width": 729,
+          "height": 1128.453125,
+          "right": 741,
+          "bottom": 1128.453125
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n\nレッスンの予約\n\nオンラインレッスン＆WEBセミナー のご予約可能回数は、あと 17 回です。受講希望の学校名を選択し、「次へ」を押してください。\n\n受講希望の学校\n----お選び下さい----\nハオオンライン校\n戻る\n次へ\n\nレッスンのキャンセル\n\nオンラインレッスン＆WEBセミナー でご予約済のレッスンは下記のとおりです。",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 110.5,
+              "y": 865.421875,
+              "width": 20,
+              "height": 20,
+              "top": 865.421875,
+              "right": 130.5,
+              "bottom": 885.421875,
+              "left": 110.5
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 281.5,
+              "y": 487.8125,
+              "width": 88,
+              "height": 50,
+              "top": 487.8125,
+              "right": 369.5,
+              "bottom": 537.8125,
+              "left": 281.5
+            }
+          },
+          {
+            "text": "次へ",
+            "rect": {
+              "x": 383.5,
+              "y": 487.8125,
+              "width": 88,
+              "height": 50,
+              "top": 487.8125,
+              "right": 471.5,
+              "bottom": 537.8125,
+              "left": 383.5
+            }
+          },
+          {
+            "text": "キャンセルする",
+            "rect": {
+              "x": 280.40625,
+              "y": 936.6875,
+              "width": 192.171875,
+              "height": 50,
+              "top": 936.6875,
+              "right": 472.578125,
+              "bottom": 986.6875,
+              "left": 280.40625
+            }
+          }
+        ],
+        "selectRects": [
+          {
+            "name": "School",
+            "value": "5221",
+            "rect": {
+              "x": 87.5,
+              "y": 411.8125,
+              "width": 578,
+              "height": 52,
+              "top": 411.8125,
+              "right": 665.5,
+              "bottom": 463.8125,
+              "left": 87.5
+            }
+          }
+        ],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 12,
+              "y": 20,
+              "width": 1383.46875,
+              "height": 81.96875,
+              "top": 20,
+              "right": 1395.46875,
+              "bottom": 101.96875,
+              "left": 12
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\edge_main_768_core_20260617.png"
+    },
+    {
+      "browserName": "edge",
+      "screen": "reserve_intro",
+      "width": 768,
+      "phase": "core",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?School=5221",
+        "innerWidth": 768,
+        "innerHeight": 900,
+        "scrollWidth": 753,
+        "clientWidth": 753,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 12,
+          "y": 20,
+          "width": 1383.46875,
+          "height": 81.96875,
+          "right": 1395.46875,
+          "bottom": 101.96875
+        },
+        "mainRect": {
+          "x": 12,
+          "y": 0,
+          "width": 729,
+          "height": 1178.390625,
+          "right": 741,
+          "bottom": 1178.390625
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n＞\nクラス選択\n　\t2026年6月\t\n»\n\n天\t一\t二\t三\t四\t五\t六\n　\t1\t2\t3\t4\t5\t6\n7\t8\t9\t10\t11\t12\t13\n14\t15\t16\t\n17\n\t\n18\n\t\n19\n\t\n20\n\n\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\n\n28\n\t\n29\n\t\n30\n\t　\t　\t　\t　\n\n日付を選択してくだ",
+        "radios": [],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 332.5,
+              "y": 992.625,
+              "width": 88,
+              "height": 50,
+              "top": 992.625,
+              "right": 420.5,
+              "bottom": 1042.625,
+              "left": 332.5
+            }
+          }
+        ],
+        "selectRects": [],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 12,
+              "y": 20,
+              "width": 1383.46875,
+              "height": 81.96875,
+              "top": 20,
+              "right": 1395.46875,
+              "bottom": 101.96875,
+              "left": 12
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\edge_reserve_intro_768_core_20260617.png"
+    },
+    {
+      "browserName": "edge",
+      "screen": "reserve_list",
+      "width": 768,
+      "phase": "core",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?ClassYear=2026&ClassMonth=6&ClassDate=29&School=5221",
+        "innerWidth": 768,
+        "innerHeight": 900,
+        "scrollWidth": 753,
+        "clientWidth": 753,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 12,
+          "y": 20,
+          "width": 1383.46875,
+          "height": 81.96875,
+          "right": 1395.46875,
+          "bottom": 101.96875
+        },
+        "mainRect": {
+          "x": 12,
+          "y": 0,
+          "width": 729,
+          "height": 1594.171875,
+          "right": 741,
+          "bottom": 1594.171875
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n＞\nクラス選択\n　\t2026年6月\t\n»\n\n天\t一\t二\t三\t四\t五\t六\n　\t1\t2\t3\t4\t5\t6\n7\t8\t9\t10\t11\t12\t13\n14\t15\t16\t\n17\n\t\n18\n\t\n19\n\t\n20\n\n\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\n\n28\n\t\n29\n\t\n30\n\t　\t　\t　\t　\n\n予約可能なクラス\n",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": true,
+            "rect": {
+              "x": 70,
+              "y": 1261.40625,
+              "width": 13,
+              "height": 13,
+              "top": 1261.40625,
+              "right": 83,
+              "bottom": 1274.40625,
+              "left": 70
+            }
+          },
+          {
+            "value": "6629z6",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 70,
+              "y": 1325.40625,
+              "width": 13,
+              "height": 13,
+              "top": 1325.40625,
+              "right": 83,
+              "bottom": 1338.40625,
+              "left": 70
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 260.90625,
+              "y": 1408.40625,
+              "width": 88,
+              "height": 50,
+              "top": 1408.40625,
+              "right": 348.90625,
+              "bottom": 1458.40625,
+              "left": 260.90625
+            }
+          },
+          {
+            "text": "予約する",
+            "rect": {
+              "x": 362.90625,
+              "y": 1408.40625,
+              "width": 129.171875,
+              "height": 50,
+              "top": 1408.40625,
+              "right": 492.078125,
+              "bottom": 1458.40625,
+              "left": 362.90625
+            }
+          }
+        ],
+        "selectRects": [],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 12,
+              "y": 20,
+              "width": 1383.46875,
+              "height": 81.96875,
+              "top": 20,
+              "right": 1395.46875,
+              "bottom": 101.96875,
+              "left": 12
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\edge_reserve_list_768_core_20260617.png"
+    },
+    {
+      "browserName": "edge",
+      "screen": "main",
+      "width": 1280,
+      "phase": "core",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/main.asp",
+        "innerWidth": 1280,
+        "innerHeight": 900,
+        "scrollWidth": 1265,
+        "clientWidth": 1265,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 120.5,
+          "y": 32,
+          "width": 1350,
+          "height": 80,
+          "right": 1470.5,
+          "bottom": 112
+        },
+        "mainRect": {
+          "x": 120.5,
+          "y": 0,
+          "width": 1024,
+          "height": 1037.703125,
+          "right": 1144.5,
+          "bottom": 1037.703125
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n\nレッスンの予約\n\nオンラインレッスン＆WEBセミナー のご予約可能回数は、あと 17 回です。受講希望の学校名を選択し、「次へ」を押してください。\n\n受講希望の学校\n----お選び下さい----\nハオオンライン校\n戻る\n次へ\n\nレッスンのキャンセル\n\nオンラインレッスン＆WEBセミナー でご予約済のレッスンは下記のとおりです。",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 206.5,
+              "y": 774.671875,
+              "width": 20,
+              "height": 20,
+              "top": 774.671875,
+              "right": 226.5,
+              "bottom": 794.671875,
+              "left": 206.5
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 537.5,
+              "y": 464.25,
+              "width": 88,
+              "height": 50,
+              "top": 464.25,
+              "right": 625.5,
+              "bottom": 514.25,
+              "left": 537.5
+            }
+          },
+          {
+            "text": "次へ",
+            "rect": {
+              "x": 639.5,
+              "y": 464.25,
+              "width": 88,
+              "height": 50,
+              "top": 464.25,
+              "right": 727.5,
+              "bottom": 514.25,
+              "left": 639.5
+            }
+          },
+          {
+            "text": "キャンセルする",
+            "rect": {
+              "x": 536.40625,
+              "y": 845.9375,
+              "width": 192.171875,
+              "height": 50,
+              "top": 845.9375,
+              "right": 728.578125,
+              "bottom": 895.9375,
+              "left": 536.40625
+            }
+          }
+        ],
+        "selectRects": [
+          {
+            "name": "School",
+            "value": "5221",
+            "rect": {
+              "x": 183.5,
+              "y": 388.25,
+              "width": 898,
+              "height": 52,
+              "top": 388.25,
+              "right": 1081.5,
+              "bottom": 440.25,
+              "left": 183.5
+            }
+          }
+        ],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 120.5,
+              "y": 32,
+              "width": 1350,
+              "height": 80,
+              "top": 32,
+              "right": 1470.5,
+              "bottom": 112,
+              "left": 120.5
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\edge_main_1280_core_20260617.png"
+    },
+    {
+      "browserName": "edge",
+      "screen": "reserve_intro",
+      "width": 1280,
+      "phase": "core",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?School=5221",
+        "innerWidth": 1280,
+        "innerHeight": 900,
+        "scrollWidth": 1265,
+        "clientWidth": 1265,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 120.5,
+          "y": 32,
+          "width": 1350,
+          "height": 80,
+          "right": 1470.5,
+          "bottom": 112
+        },
+        "mainRect": {
+          "x": 120.5,
+          "y": 0,
+          "width": 1024,
+          "height": 1188.421875,
+          "right": 1144.5,
+          "bottom": 1188.421875
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n＞\nクラス選択\n　\t2026年6月\t\n»\n\n天\t一\t二\t三\t四\t五\t六\n　\t1\t2\t3\t4\t5\t6\n7\t8\t9\t10\t11\t12\t13\n14\t15\t16\t\n17\n\t\n18\n\t\n19\n\t\n20\n\n\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\n\n28\n\t\n29\n\t\n30\n\t　\t　\t　\t　\n\n日付を選択してくだ",
+        "radios": [],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 588.5,
+              "y": 1002.65625,
+              "width": 88,
+              "height": 50,
+              "top": 1002.65625,
+              "right": 676.5,
+              "bottom": 1052.65625,
+              "left": 588.5
+            }
+          }
+        ],
+        "selectRects": [],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 120.5,
+              "y": 32,
+              "width": 1350,
+              "height": 80,
+              "top": 32,
+              "right": 1470.5,
+              "bottom": 112,
+              "left": 120.5
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\edge_reserve_intro_1280_core_20260617.png"
+    },
+    {
+      "browserName": "edge",
+      "screen": "reserve_list",
+      "width": 1280,
+      "phase": "core",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?ClassYear=2026&ClassMonth=6&ClassDate=29&School=5221",
+        "innerWidth": 1280,
+        "innerHeight": 900,
+        "scrollWidth": 1265,
+        "clientWidth": 1265,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 120.5,
+          "y": 32,
+          "width": 1350,
+          "height": 80,
+          "right": 1470.5,
+          "bottom": 112
+        },
+        "mainRect": {
+          "x": 120.5,
+          "y": 0,
+          "width": 1024,
+          "height": 1568.203125,
+          "right": 1144.5,
+          "bottom": 1568.203125
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n＞\nクラス選択\n　\t2026年6月\t\n»\n\n天\t一\t二\t三\t四\t五\t六\n　\t1\t2\t3\t4\t5\t6\n7\t8\t9\t10\t11\t12\t13\n14\t15\t16\t\n17\n\t\n18\n\t\n19\n\t\n20\n\n\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\n\n28\n\t\n29\n\t\n30\n\t　\t　\t　\t　\n\n予約可能なクラス\n",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": true,
+            "rect": {
+              "x": 192.5,
+              "y": 1253.4375,
+              "width": 13,
+              "height": 13,
+              "top": 1253.4375,
+              "right": 205.5,
+              "bottom": 1266.4375,
+              "left": 192.5
+            }
+          },
+          {
+            "value": "6629z6",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 192.5,
+              "y": 1317.4375,
+              "width": 13,
+              "height": 13,
+              "top": 1317.4375,
+              "right": 205.5,
+              "bottom": 1330.4375,
+              "left": 192.5
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 516.90625,
+              "y": 1382.4375,
+              "width": 88,
+              "height": 50,
+              "top": 1382.4375,
+              "right": 604.90625,
+              "bottom": 1432.4375,
+              "left": 516.90625
+            }
+          },
+          {
+            "text": "予約する",
+            "rect": {
+              "x": 618.90625,
+              "y": 1382.4375,
+              "width": 129.171875,
+              "height": 50,
+              "top": 1382.4375,
+              "right": 748.078125,
+              "bottom": 1432.4375,
+              "left": 618.90625
+            }
+          }
+        ],
+        "selectRects": [],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 120.5,
+              "y": 32,
+              "width": 1350,
+              "height": 80,
+              "top": 32,
+              "right": 1470.5,
+              "bottom": 112,
+              "left": 120.5
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\edge_reserve_list_1280_core_20260617.png"
+    },
+    {
+      "browserName": "edge",
+      "screen": "main",
+      "width": 320,
+      "phase": "edge",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/main.asp",
+        "innerWidth": 320,
+        "innerHeight": 900,
+        "scrollWidth": 305,
+        "clientWidth": 305,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 12,
+          "y": 20,
+          "width": 550.40625,
+          "height": 32.609375,
+          "right": 562.40625,
+          "bottom": 52.609375
+        },
+        "mainRect": {
+          "x": 12,
+          "y": 0,
+          "width": 281,
+          "height": 1649.515625,
+          "right": 293,
+          "bottom": 1649.515625
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\nレッスン予約システム コースの選択\n予約・キャンセル\n\nレッスンの予約\n\nオンラインレッスン＆WEBセミナー のご予約可能回数は、あと 17 回です。受講希望の学校名を選択し、「次へ」を押してください。\n\n受講希望の学校\n----お選び下さい----\nハオオンライン校\n戻る\n次へ\n\nレッスンのキャンセル\n\nオンラインレッスン＆WEBセミナー でご予約済のレッスンは下記のとおりです。キャンセ",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 66,
+              "y": 1297.125,
+              "width": 20,
+              "height": 20,
+              "top": 1297.125,
+              "right": 86,
+              "bottom": 1317.125,
+              "left": 66
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 43,
+              "y": 645.71875,
+              "width": 219,
+              "height": 50,
+              "top": 645.71875,
+              "right": 262,
+              "bottom": 695.71875,
+              "left": 43
+            }
+          },
+          {
+            "text": "次へ",
+            "rect": {
+              "x": 43,
+              "y": 581.71875,
+              "width": 219,
+              "height": 50,
+              "top": 581.71875,
+              "right": 262,
+              "bottom": 631.71875,
+              "left": 43
+            }
+          },
+          {
+            "text": "キャンセルする",
+            "rect": {
+              "x": 43,
+              "y": 1402.65625,
+              "width": 219,
+              "height": 50,
+              "top": 1402.65625,
+              "right": 262,
+              "bottom": 1452.65625,
+              "left": 43
+            }
+          }
+        ],
+        "selectRects": [
+          {
+            "name": "School",
+            "value": "5221",
+            "rect": {
+              "x": 43,
+              "y": 505.71875,
+              "width": 219,
+              "height": 52,
+              "top": 505.71875,
+              "right": 262,
+              "bottom": 557.71875,
+              "left": 43
+            }
+          }
+        ],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 12,
+              "y": 20,
+              "width": 550.40625,
+              "height": 32.609375,
+              "top": 20,
+              "right": 562.40625,
+              "bottom": 52.609375,
+              "left": 12
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\edge_main_320_edge_20260617.png"
+    },
+    {
+      "browserName": "edge",
+      "screen": "reserve_intro",
+      "width": 320,
+      "phase": "edge",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?School=5221",
+        "innerWidth": 320,
+        "innerHeight": 900,
+        "scrollWidth": 305,
+        "clientWidth": 305,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 12,
+          "y": 20,
+          "width": 550.40625,
+          "height": 32.609375,
+          "right": 562.40625,
+          "bottom": 52.609375
+        },
+        "mainRect": {
+          "x": 12,
+          "y": 0,
+          "width": 281,
+          "height": 1298.890625,
+          "right": 293,
+          "bottom": 1298.890625
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\nレッスン予約システム コースの選択\n予約・キャンセル\nクラス選択\n　\t2026年6月\t\n»\n\n天\t一\t二\t三\t四\t五\t六\n　\t1\t2\t3\t4\t5\t6\n7\t8\t9\t10\t11\t12\t13\n14\t15\t16\t\n17\n\t\n18\n\t\n19\n\t\n20\n\n\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\n\n28\n\t\n29\n\t\n30\n\t　\t　\t　\t　\n\n日付を選択してください\n\nハオ",
+        "radios": [],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 29,
+              "y": 1087.578125,
+              "width": 247,
+              "height": 50,
+              "top": 1087.578125,
+              "right": 276,
+              "bottom": 1137.578125,
+              "left": 29
+            }
+          }
+        ],
+        "selectRects": [],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 12,
+              "y": 20,
+              "width": 550.40625,
+              "height": 32.609375,
+              "top": 20,
+              "right": 562.40625,
+              "bottom": 52.609375,
+              "left": 12
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\edge_reserve_intro_320_edge_20260617.png"
+    },
+    {
+      "browserName": "edge",
+      "screen": "reserve_list",
+      "width": 320,
+      "phase": "edge",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?ClassYear=2026&ClassMonth=6&ClassDate=29&School=5221",
+        "innerWidth": 320,
+        "innerHeight": 900,
+        "scrollWidth": 305,
+        "clientWidth": 305,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 12,
+          "y": 20,
+          "width": 550.40625,
+          "height": 32.609375,
+          "right": 562.40625,
+          "bottom": 52.609375
+        },
+        "mainRect": {
+          "x": 12,
+          "y": 0,
+          "width": 281,
+          "height": 2109.40625,
+          "right": 293,
+          "bottom": 2109.40625
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\nレッスン予約システム コースの選択\n予約・キャンセル\nクラス選択\n　\t2026年6月\t\n»\n\n天\t一\t二\t三\t四\t五\t六\n　\t1\t2\t3\t4\t5\t6\n7\t8\t9\t10\t11\t12\t13\n14\t15\t16\t\n17\n\t\n18\n\t\n19\n\t\n20\n\n\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\n\n28\n\t\n29\n\t\n30\n\t　\t　\t　\t　\n\n予約可能なクラス\n\n2026年",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": true,
+            "rect": {
+              "x": 79.5,
+              "y": 1393.09375,
+              "width": 13,
+              "height": 13,
+              "top": 1393.09375,
+              "right": 92.5,
+              "bottom": 1406.09375,
+              "left": 79.5
+            }
+          },
+          {
+            "value": "6629z6",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 79.5,
+              "y": 1603.09375,
+              "width": 13,
+              "height": 13,
+              "top": 1603.09375,
+              "right": 92.5,
+              "bottom": 1616.09375,
+              "left": 79.5
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 29,
+              "y": 1898.09375,
+              "width": 247,
+              "height": 50,
+              "top": 1898.09375,
+              "right": 276,
+              "bottom": 1948.09375,
+              "left": 29
+            }
+          },
+          {
+            "text": "予約する",
+            "rect": {
+              "x": 29,
+              "y": 1834.09375,
+              "width": 247,
+              "height": 50,
+              "top": 1834.09375,
+              "right": 276,
+              "bottom": 1884.09375,
+              "left": 29
+            }
+          }
+        ],
+        "selectRects": [],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 12,
+              "y": 20,
+              "width": 550.40625,
+              "height": 32.609375,
+              "top": 20,
+              "right": 562.40625,
+              "bottom": 52.609375,
+              "left": 12
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\edge_reserve_list_320_edge_20260617.png"
+    },
+    {
+      "browserName": "edge",
+      "screen": "main",
+      "width": 900,
+      "phase": "edge",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/main.asp",
+        "innerWidth": 900,
+        "innerHeight": 900,
+        "scrollWidth": 885,
+        "clientWidth": 885,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 12,
+          "y": 20,
+          "width": 1628.921875,
+          "height": 96.515625,
+          "right": 1640.921875,
+          "bottom": 116.515625
+        },
+        "mainRect": {
+          "x": 12,
+          "y": 0,
+          "width": 861,
+          "height": 1143,
+          "right": 873,
+          "bottom": 1143
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n\nレッスンの予約\n\nオンラインレッスン＆WEBセミナー のご予約可能回数は、あと 17 回です。受講希望の学校名を選択し、「次へ」を押してください。\n\n受講希望の学校\n----お選び下さい----\nハオオンライン校\n戻る\n次へ\n\nレッスンのキャンセル\n\nオンラインレッスン＆WEBセミナー でご予約済のレッスンは下記のとおりです。",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 176.5,
+              "y": 879.96875,
+              "width": 20,
+              "height": 20,
+              "top": 879.96875,
+              "right": 196.5,
+              "bottom": 899.96875,
+              "left": 176.5
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 347.5,
+              "y": 502.359375,
+              "width": 88,
+              "height": 50,
+              "top": 502.359375,
+              "right": 435.5,
+              "bottom": 552.359375,
+              "left": 347.5
+            }
+          },
+          {
+            "text": "次へ",
+            "rect": {
+              "x": 449.5,
+              "y": 502.359375,
+              "width": 88,
+              "height": 50,
+              "top": 502.359375,
+              "right": 537.5,
+              "bottom": 552.359375,
+              "left": 449.5
+            }
+          },
+          {
+            "text": "キャンセルする",
+            "rect": {
+              "x": 346.40625,
+              "y": 951.234375,
+              "width": 192.171875,
+              "height": 50,
+              "top": 951.234375,
+              "right": 538.578125,
+              "bottom": 1001.234375,
+              "left": 346.40625
+            }
+          }
+        ],
+        "selectRects": [
+          {
+            "name": "School",
+            "value": "5221",
+            "rect": {
+              "x": 153.5,
+              "y": 426.359375,
+              "width": 578,
+              "height": 52,
+              "top": 426.359375,
+              "right": 731.5,
+              "bottom": 478.359375,
+              "left": 153.5
+            }
+          }
+        ],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 12,
+              "y": 20,
+              "width": 1628.921875,
+              "height": 96.515625,
+              "top": 20,
+              "right": 1640.921875,
+              "bottom": 116.515625,
+              "left": 12
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\edge_main_900_edge_20260617.png"
+    },
+    {
+      "browserName": "edge",
+      "screen": "reserve_intro",
+      "width": 900,
+      "phase": "edge",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?School=5221",
+        "innerWidth": 900,
+        "innerHeight": 900,
+        "scrollWidth": 885,
+        "clientWidth": 885,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 12,
+          "y": 20,
+          "width": 1628.921875,
+          "height": 96.515625,
+          "right": 1640.921875,
+          "bottom": 116.515625
+        },
+        "mainRect": {
+          "x": 12,
+          "y": 0,
+          "width": 861,
+          "height": 1192.9375,
+          "right": 873,
+          "bottom": 1192.9375
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n＞\nクラス選択\n　\t2026年6月\t\n»\n\n天\t一\t二\t三\t四\t五\t六\n　\t1\t2\t3\t4\t5\t6\n7\t8\t9\t10\t11\t12\t13\n14\t15\t16\t\n17\n\t\n18\n\t\n19\n\t\n20\n\n\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\n\n28\n\t\n29\n\t\n30\n\t　\t　\t　\t　\n\n日付を選択してくだ",
+        "radios": [],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 398.5,
+              "y": 1007.171875,
+              "width": 88,
+              "height": 50,
+              "top": 1007.171875,
+              "right": 486.5,
+              "bottom": 1057.171875,
+              "left": 398.5
+            }
+          }
+        ],
+        "selectRects": [],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 12,
+              "y": 20,
+              "width": 1628.921875,
+              "height": 96.515625,
+              "top": 20,
+              "right": 1640.921875,
+              "bottom": 116.515625,
+              "left": 12
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\edge_reserve_intro_900_edge_20260617.png"
+    },
+    {
+      "browserName": "edge",
+      "screen": "reserve_list",
+      "width": 900,
+      "phase": "edge",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?ClassYear=2026&ClassMonth=6&ClassDate=29&School=5221",
+        "innerWidth": 900,
+        "innerHeight": 900,
+        "scrollWidth": 885,
+        "clientWidth": 885,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 12,
+          "y": 20,
+          "width": 1628.921875,
+          "height": 96.515625,
+          "right": 1640.921875,
+          "bottom": 116.515625
+        },
+        "mainRect": {
+          "x": 12,
+          "y": 0,
+          "width": 861,
+          "height": 1608.71875,
+          "right": 873,
+          "bottom": 1608.71875
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n＞\nクラス選択\n　\t2026年6月\t\n»\n\n天\t一\t二\t三\t四\t五\t六\n　\t1\t2\t3\t4\t5\t6\n7\t8\t9\t10\t11\t12\t13\n14\t15\t16\t\n17\n\t\n18\n\t\n19\n\t\n20\n\n\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\n\n28\n\t\n29\n\t\n30\n\t　\t　\t　\t　\n\n予約可能なクラス\n",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": true,
+            "rect": {
+              "x": 120.5,
+              "y": 1275.953125,
+              "width": 13,
+              "height": 13,
+              "top": 1275.953125,
+              "right": 133.5,
+              "bottom": 1288.953125,
+              "left": 120.5
+            }
+          },
+          {
+            "value": "6629z6",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 120.5,
+              "y": 1339.953125,
+              "width": 13,
+              "height": 13,
+              "top": 1339.953125,
+              "right": 133.5,
+              "bottom": 1352.953125,
+              "left": 120.5
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 326.90625,
+              "y": 1422.953125,
+              "width": 88,
+              "height": 50,
+              "top": 1422.953125,
+              "right": 414.90625,
+              "bottom": 1472.953125,
+              "left": 326.90625
+            }
+          },
+          {
+            "text": "予約する",
+            "rect": {
+              "x": 428.90625,
+              "y": 1422.953125,
+              "width": 129.171875,
+              "height": 50,
+              "top": 1422.953125,
+              "right": 558.078125,
+              "bottom": 1472.953125,
+              "left": 428.90625
+            }
+          }
+        ],
+        "selectRects": [],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 12,
+              "y": 20,
+              "width": 1628.921875,
+              "height": 96.515625,
+              "top": 20,
+              "right": 1640.921875,
+              "bottom": 116.515625,
+              "left": 12
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\edge_reserve_list_900_edge_20260617.png"
+    },
+    {
+      "browserName": "edge",
+      "screen": "main",
+      "width": 1920,
+      "phase": "edge",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/main.asp",
+        "innerWidth": 1920,
+        "innerHeight": 900,
+        "scrollWidth": 1905,
+        "clientWidth": 1905,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 392.5,
+          "y": 32,
+          "width": 1350,
+          "height": 80,
+          "right": 1742.5,
+          "bottom": 112
+        },
+        "mainRect": {
+          "x": 392.5,
+          "y": 0,
+          "width": 1120,
+          "height": 1037.703125,
+          "right": 1512.5,
+          "bottom": 1037.703125
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n\nレッスンの予約\n\nオンラインレッスン＆WEBセミナー のご予約可能回数は、あと 17 回です。受講希望の学校名を選択し、「次へ」を押してください。\n\n受講希望の学校\n----お選び下さい----\nハオオンライン校\n戻る\n次へ\n\nレッスンのキャンセル\n\nオンラインレッスン＆WEBセミナー でご予約済のレッスンは下記のとおりです。",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 526.5,
+              "y": 774.671875,
+              "width": 20,
+              "height": 20,
+              "top": 774.671875,
+              "right": 546.5,
+              "bottom": 794.671875,
+              "left": 526.5
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 857.5,
+              "y": 464.25,
+              "width": 88,
+              "height": 50,
+              "top": 464.25,
+              "right": 945.5,
+              "bottom": 514.25,
+              "left": 857.5
+            }
+          },
+          {
+            "text": "次へ",
+            "rect": {
+              "x": 959.5,
+              "y": 464.25,
+              "width": 88,
+              "height": 50,
+              "top": 464.25,
+              "right": 1047.5,
+              "bottom": 514.25,
+              "left": 959.5
+            }
+          },
+          {
+            "text": "キャンセルする",
+            "rect": {
+              "x": 856.40625,
+              "y": 845.9375,
+              "width": 192.171875,
+              "height": 50,
+              "top": 845.9375,
+              "right": 1048.578125,
+              "bottom": 895.9375,
+              "left": 856.40625
+            }
+          }
+        ],
+        "selectRects": [
+          {
+            "name": "School",
+            "value": "5221",
+            "rect": {
+              "x": 503.5,
+              "y": 388.25,
+              "width": 898,
+              "height": 52,
+              "top": 388.25,
+              "right": 1401.5,
+              "bottom": 440.25,
+              "left": 503.5
+            }
+          }
+        ],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 392.5,
+              "y": 32,
+              "width": 1350,
+              "height": 80,
+              "top": 32,
+              "right": 1742.5,
+              "bottom": 112,
+              "left": 392.5
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\edge_main_1920_edge_20260617.png"
+    },
+    {
+      "browserName": "edge",
+      "screen": "reserve_intro",
+      "width": 1920,
+      "phase": "edge",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?School=5221",
+        "innerWidth": 1920,
+        "innerHeight": 900,
+        "scrollWidth": 1905,
+        "clientWidth": 1905,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 392.5,
+          "y": 32,
+          "width": 1350,
+          "height": 80,
+          "right": 1742.5,
+          "bottom": 112
+        },
+        "mainRect": {
+          "x": 392.5,
+          "y": 0,
+          "width": 1120,
+          "height": 1188.421875,
+          "right": 1512.5,
+          "bottom": 1188.421875
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n＞\nクラス選択\n　\t2026年6月\t\n»\n\n天\t一\t二\t三\t四\t五\t六\n　\t1\t2\t3\t4\t5\t6\n7\t8\t9\t10\t11\t12\t13\n14\t15\t16\t\n17\n\t\n18\n\t\n19\n\t\n20\n\n\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\n\n28\n\t\n29\n\t\n30\n\t　\t　\t　\t　\n\n日付を選択してくだ",
+        "radios": [],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 908.5,
+              "y": 1002.65625,
+              "width": 88,
+              "height": 50,
+              "top": 1002.65625,
+              "right": 996.5,
+              "bottom": 1052.65625,
+              "left": 908.5
+            }
+          }
+        ],
+        "selectRects": [],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 392.5,
+              "y": 32,
+              "width": 1350,
+              "height": 80,
+              "top": 32,
+              "right": 1742.5,
+              "bottom": 112,
+              "left": 392.5
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\edge_reserve_intro_1920_edge_20260617.png"
+    },
+    {
+      "browserName": "edge",
+      "screen": "reserve_list",
+      "width": 1920,
+      "phase": "edge",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?ClassYear=2026&ClassMonth=6&ClassDate=29&School=5221",
+        "innerWidth": 1920,
+        "innerHeight": 900,
+        "scrollWidth": 1905,
+        "clientWidth": 1905,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 392.5,
+          "y": 32,
+          "width": 1350,
+          "height": 80,
+          "right": 1742.5,
+          "bottom": 112
+        },
+        "mainRect": {
+          "x": 392.5,
+          "y": 0,
+          "width": 1120,
+          "height": 1568.203125,
+          "right": 1512.5,
+          "bottom": 1568.203125
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\n＞\nレッスン予約システム コースの選択\n＞\n予約・キャンセル\n＞\nクラス選択\n　\t2026年6月\t\n»\n\n天\t一\t二\t三\t四\t五\t六\n　\t1\t2\t3\t4\t5\t6\n7\t8\t9\t10\t11\t12\t13\n14\t15\t16\t\n17\n\t\n18\n\t\n19\n\t\n20\n\n\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\n\n28\n\t\n29\n\t\n30\n\t　\t　\t　\t　\n\n予約可能なクラス\n",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": true,
+            "rect": {
+              "x": 512.5,
+              "y": 1253.4375,
+              "width": 13,
+              "height": 13,
+              "top": 1253.4375,
+              "right": 525.5,
+              "bottom": 1266.4375,
+              "left": 512.5
+            }
+          },
+          {
+            "value": "6629z6",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 512.5,
+              "y": 1317.4375,
+              "width": 13,
+              "height": 13,
+              "top": 1317.4375,
+              "right": 525.5,
+              "bottom": 1330.4375,
+              "left": 512.5
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 836.90625,
+              "y": 1382.4375,
+              "width": 88,
+              "height": 50,
+              "top": 1382.4375,
+              "right": 924.90625,
+              "bottom": 1432.4375,
+              "left": 836.90625
+            }
+          },
+          {
+            "text": "予約する",
+            "rect": {
+              "x": 938.90625,
+              "y": 1382.4375,
+              "width": 129.171875,
+              "height": 50,
+              "top": 1382.4375,
+              "right": 1068.078125,
+              "bottom": 1432.4375,
+              "left": 938.90625
+            }
+          }
+        ],
+        "selectRects": [],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 392.5,
+              "y": 32,
+              "width": 1350,
+              "height": 80,
+              "top": 32,
+              "right": 1742.5,
+              "bottom": 112,
+              "left": 392.5
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\edge_reserve_list_1920_edge_20260617.png"
+    },
+    {
+      "browserName": "edge",
+      "screen": "main",
+      "width": 375,
+      "phase": "tap",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/main.asp",
+        "innerWidth": 375,
+        "innerHeight": 900,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 12,
+          "y": 20,
+          "width": 652.671875,
+          "height": 38.671875,
+          "right": 664.671875,
+          "bottom": 58.671875
+        },
+        "mainRect": {
+          "x": 12,
+          "y": 0,
+          "width": 336,
+          "height": 1421.421875,
+          "right": 348,
+          "bottom": 1421.421875
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\nレッスン予約システム コースの選択\n予約・キャンセル\n\nレッスンの予約\n\nオンラインレッスン＆WEBセミナー のご予約可能回数は、あと 17 回です。受講希望の学校名を選択し、「次へ」を押してください。\n\n受講希望の学校\n----お選び下さい----\nハオオンライン校\n戻る\n次へ\n\nレッスンのキャンセル\n\nオンラインレッスン＆WEBセミナー でご予約済のレッスンは下記のとおりです。キャンセ",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 66,
+              "y": 1096.578125,
+              "width": 20,
+              "height": 20,
+              "top": 1096.578125,
+              "right": 86,
+              "bottom": 1116.578125,
+              "left": 66
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 43,
+              "y": 584.59375,
+              "width": 274,
+              "height": 50,
+              "top": 584.59375,
+              "right": 317,
+              "bottom": 634.59375,
+              "left": 43
+            }
+          },
+          {
+            "text": "次へ",
+            "rect": {
+              "x": 43,
+              "y": 520.59375,
+              "width": 274,
+              "height": 50,
+              "top": 520.59375,
+              "right": 317,
+              "bottom": 570.59375,
+              "left": 43
+            }
+          },
+          {
+            "text": "キャンセルする",
+            "rect": {
+              "x": 43,
+              "y": 1202.109375,
+              "width": 274,
+              "height": 50,
+              "top": 1202.109375,
+              "right": 317,
+              "bottom": 1252.109375,
+              "left": 43
+            }
+          }
+        ],
+        "selectRects": [
+          {
+            "name": "School",
+            "value": "5221",
+            "rect": {
+              "x": 43,
+              "y": 444.59375,
+              "width": 274,
+              "height": 52,
+              "top": 444.59375,
+              "right": 317,
+              "bottom": 496.59375,
+              "left": 43
+            }
+          }
+        ],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 12,
+              "y": 20,
+              "width": 652.671875,
+              "height": 38.671875,
+              "top": 20,
+              "right": 664.671875,
+              "bottom": 58.671875,
+              "left": 12
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\edge_main_375_tap_20260617.png"
+    },
+    {
+      "browserName": "edge",
+      "screen": "reserve_list",
+      "width": 375,
+      "phase": "tap",
+      "metrics": {
+        "url": "http://localhost:8088/netcampus/hao/work/_reserve2/reserve.asp?ClassYear=2026&ClassMonth=6&ClassDate=29&School=5221",
+        "innerWidth": 375,
+        "innerHeight": 900,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "headerOverflow": true,
+        "headerRect": {
+          "x": 12,
+          "y": 20,
+          "width": 652.671875,
+          "height": 38.671875,
+          "right": 664.671875,
+          "bottom": 58.671875
+        },
+        "mainRect": {
+          "x": 12,
+          "y": 0,
+          "width": 336,
+          "height": 2014.6875,
+          "right": 348,
+          "bottom": 2014.6875
+        },
+        "charSet": "Shift_JIS",
+        "bodyText": "ホーム\nレッスン予約システム コースの選択\n予約・キャンセル\nクラス選択\n　\t2026年6月\t\n»\n\n天\t一\t二\t三\t四\t五\t六\n　\t1\t2\t3\t4\t5\t6\n7\t8\t9\t10\t11\t12\t13\n14\t15\t16\t\n17\n\t\n18\n\t\n19\n\t\n20\n\n\n21\n\t\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\n\n28\n\t\n29\n\t\n30\n\t　\t　\t　\t　\n\n予約可能なクラス\n\n2026年",
+        "radios": [
+          {
+            "value": "6629ni",
+            "checked": false,
+            "disabled": true,
+            "rect": {
+              "x": 79.5,
+              "y": 1298.375,
+              "width": 13,
+              "height": 13,
+              "top": 1298.375,
+              "right": 92.5,
+              "bottom": 1311.375,
+              "left": 79.5
+            }
+          },
+          {
+            "value": "6629z6",
+            "checked": false,
+            "disabled": false,
+            "rect": {
+              "x": 79.5,
+              "y": 1508.375,
+              "width": 13,
+              "height": 13,
+              "top": 1508.375,
+              "right": 92.5,
+              "bottom": 1521.375,
+              "left": 79.5
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "text": "戻る",
+            "rect": {
+              "x": 29,
+              "y": 1803.375,
+              "width": 302,
+              "height": 50,
+              "top": 1803.375,
+              "right": 331,
+              "bottom": 1853.375,
+              "left": 29
+            }
+          },
+          {
+            "text": "予約する",
+            "rect": {
+              "x": 29,
+              "y": 1739.375,
+              "width": 302,
+              "height": 50,
+              "top": 1739.375,
+              "right": 331,
+              "bottom": 1789.375,
+              "left": 29
+            }
+          }
+        ],
+        "selectRects": [],
+        "images": [
+          {
+            "alt": "ハオ中国語アカデミー",
+            "src": "images/header-img_135080.jpg",
+            "rect": {
+              "x": 12,
+              "y": 20,
+              "width": 652.671875,
+              "height": 38.671875,
+              "top": 20,
+              "right": 664.671875,
+              "bottom": 58.671875,
+              "left": 12
+            }
+          }
+        ]
+      },
+      "shot": "C:\\sources\\asp\\netcampus\\hao\\work\\_reserve2\\test_evidence\\section3_20260617\\edge_reserve_list_375_tap_20260617.png"
+    }
+  ],
+  "firefoxStatus": {
+    "status": "failed",
+    "error": "Error: browserType.launchPersistentContext: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:/Program Files/Mozilla Firefox/firefox.exe -no-remote -wait-for-browser -foreground -profile C:/codex_ff_profile -juggler-pipe about:blank\n<launched> pid=17216\n[pid=17216] <process did exit: exitCode=0, signal=null>\n[pid=17216] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> C:/Program Files/Mozilla Firefox/firefox.exe -no-remote -wait-for-browser -foreground -profile C:/codex_ff_profile -juggler-pipe about:blank\u001b[22m\n\u001b[2m  - <launched> pid=17216\u001b[22m\n\u001b[2m  - [pid=17216] <process did exit: exitCode=0, signal=null>\u001b[22m\n\u001b[2m  - [pid=17216] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=17216] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=17216] <kill>\u001b[22m\n\u001b[2m  - [pid=17216] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=17216] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=17216] <gracefully close end>\u001b[22m\n"
+  }
+}
