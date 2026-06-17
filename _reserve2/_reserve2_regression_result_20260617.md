@@ -1,11 +1,10 @@
-# _reserve2_regression_result_20260617
+﻿# _reserve2_regression_result_20260617
 
 ## 結論
 - `2026-06-16` までに取得済みだった実機証跡を根拠に、Excel の `?? / ???` 判定を正式な `合格 / 不合格` へ補正した。
 - `C_機能回帰` の正式件数は **合格24 / 不合格1 / 未実施8** で確定。
-- `A_表示・レスポンシブ` は Excel 上で **合格59 / 未実施110 / 対象外188**。
+- `A_表示・レスポンシブ` は Excel 上で **合格66 / 未実施103 / 対象外188**。
 - したがって、次に着手すべきは **未実施8件の実行可否整理** と **BUG-006 の本番確認要否整理**。
-
 ## 今回反映した内容
 - `C:\sources\asp\netcampus\hao\work\_reserve2\予約システム_レスポンシブ対応_テスト仕様書.xlsx`
   - `A_表示・レスポンシブ` シート:
@@ -46,17 +45,27 @@
     - `C:\sources\asp\netcampus\hao\work\_reserve2\test_evidence\chrome_c1_c2_probe_20260617.json`
 
 ## A_表示・レスポンシブの現状
-- 合格: 59
-- 未実施: 110
+- 合格: 66
+- 未実施: 103
 - 対象外: 188
 
-### 今回の判定補正で根拠に使った主な証跡
-- `C:\sources\asp\netcampus\hao\work\_reserve2\test_evidence\chrome_responsive_retest_20260616.json`
-- `C:\sources\asp\netcampus\hao\work\_reserve2\test_evidence\edge_responsive_retest_20260616.json`
-- `C:\sources\asp\netcampus\hao\work\_reserve2\test_evidence\firefox_responsive_retest_20260616.json`
-- `C:\sources\asp\netcampus\hao\work\_reserve2\test_evidence\chrome_*_20260616.png`
-- `C:\sources\asp\netcampus\hao\work\_reserve2\test_evidence\edge_*_20260616.png`
-- `C:\sources\asp\netcampus\hao\work\_reserve2\test_evidence\firefox_*_20260616.png`
+### 2026-06-17 セクション3反映
+- Chrome
+  - main.asp / reserve.asp の section3 実測を反映し、直接証跡がある項目を合格へ更新
+  - 画面回転 / 200%ズーム / 画像欠落時(alt) / 長文端値 は今回の証跡対象外のため既存の未実施を維持
+- Edge
+  - section3 の Chrome 判定基準を Edge 画像へ転記し、対応項目を更新
+- Firefox
+  - launchPersistentContext 起動ブロッカーのため A-103〜A-153 を未実施で統一
+
+### 根拠にした主な証跡
+- `C:\sources\asp\netcampus\hao\work\_reserve2\test_evidence\section3_20260617\section3_results.json`
+- `C:\sources\asp\netcampus\hao\work\_reserve2\test_evidence\section3_20260617\chrome_main_*_20260617.png`
+- `C:\sources\asp\netcampus\hao\work\_reserve2\test_evidence\section3_20260617\chrome_reserve_intro_*_20260617.png`
+- `C:\sources\asp\netcampus\hao\work\_reserve2\test_evidence\section3_20260617\chrome_reserve_list_*_20260617.png`
+- `C:\sources\asp\netcampus\hao\work\_reserve2\test_evidence\section3_20260617\edge_main_*_20260617.png`
+- `C:\sources\asp\netcampus\hao\work\_reserve2\test_evidence\section3_20260617\edge_reserve_intro_*_20260617.png`
+- `C:\sources\asp\netcampus\hao\work\_reserve2\test_evidence\section3_20260617\edge_reserve_list_*_20260617.png`
 
 ## BUGの現状
 - `BUG-001`: 対応済
