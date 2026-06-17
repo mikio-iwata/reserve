@@ -24,12 +24,24 @@ function extractEvidence(text) {
   const src = String(text ?? "");
   const direct = [...src.matchAll(/([A-Za-z0-9_./\\-]+\.(?:png|json|txt|md|log|asp|html))/g)].map((m) => m[1]);
   const out = [];
+  const resolveLocal = (file) => {
+    const normalized = file.replace(/\//g, "\\");
+    const candidates = [
+      path.join(evidenceRoot, normalized),
+      path.join(evidenceRoot, "section3_20260617", path.basename(normalized)),
+    ];
+    for (const candidate of candidates) {
+      if (existsSync(candidate)) return candidate;
+    }
+    return null;
+  };
   for (const file of direct) {
     if (file === "section3_results.json") {
       out.push(path.join(evidenceRoot, "section3_20260617", "section3_results.json"));
       continue;
     }
-    out.push(path.join(evidenceRoot, file));
+    const resolved = resolveLocal(file);
+    if (resolved) out.push(resolved);
   }
   if (src.includes("chrome_main_*_20260617.png")) {
     out.push(path.join(evidenceRoot, "section3_20260617", "chrome_main_320_edge_20260617.png"));
@@ -164,24 +176,14 @@ const aSummary = aRows.map((row) => {
   const judge = row[7];
   const memo = row[8] ?? "";
   const evidence = extractEvidence(memo);
-  let assessment = judge;
-  let note = memo;
-  if (browser === "Win Firefox") {
-    const ff = firefoxAssessment(id);
-    assessment = ff.assessment;
-    note = ff.note;
-    for (const rel of ff.evidence) {
-      evidence.push(path.join(evidenceRoot, rel));
-    }
-  }
   return {
     id,
     sheet: "A",
     label: `${browser} / ${screen} / ${file} / ${item}`,
     judge,
-    assessment,
+    assessment: judge,
     evidence: [...new Set(evidence)],
-    note,
+    note: memo,
   };
 });
 
@@ -218,10 +220,23 @@ const bugSummary = bugRows.map((row) => ({
 }));
 
 const counts = {
-  a: { pass: 66, pending: 103, excluded: 188 },
-  c: { pass: 24, fail: 1, pending: 8 },
+  a: { pass: 0, hold: 0, pending: 0, excluded: 0 },
+  c: { pass: 0, fail: 0, hold: 0, pending: 0 },
   bug: { resolved: 4, dataInsufficient: 1, prodWait: 1 },
 };
+
+for (const row of aSummary) {
+  if (row.judge === "合格") counts.a.pass += 1;
+  else if (row.judge === "保留") counts.a.hold += 1;
+  else if (row.judge === "未実施") counts.a.pending += 1;
+  else if (row.judge === "対象外") counts.a.excluded += 1;
+}
+for (const row of cSummary) {
+  if (row.judge === "合格") counts.c.pass += 1;
+  else if (row.judge === "不合格") counts.c.fail += 1;
+  else if (row.judge === "保留") counts.c.hold += 1;
+  else if (row.judge === "未実施") counts.c.pending += 1;
+}
 
 const summaryMd = [
   "# _reserve2 test summary",
@@ -232,27 +247,26 @@ const summaryMd = [
   "- Firefox は 2026-06-16 の既存証跡を優先して再評価した。",
   "",
   "## 集計結果",
-  `- A_表示・レスポンシブ: 合格${counts.a.pass} / 未実施${counts.a.pending} / 対象外${counts.a.excluded}`,
-  `- C_機能回帰: 合格${counts.c.pass} / 不合格${counts.c.fail} / 未実施${counts.c.pending}`,
+  `- A_表示・レスポンシブ: 合格${counts.a.pass} / 保留${counts.a.hold} / 未実施${counts.a.pending} / 対象外${counts.a.excluded}`,
+  `- C_機能回帰: 合格${counts.c.pass} / 不合格${counts.c.fail} / 保留${counts.c.hold} / 未実施${counts.c.pending}`,
   `- 不具合一覧: 対応済${counts.bug.resolved} / データ不足${counts.bug.dataInsufficient} / 本番確認待ち${counts.bug.prodWait}`,
   "",
-  "## Firefox の再評価",
-  "- 合格候補: A-143, A-144, A-145, A-146, A-148, A-149, A-150, A-153",
-  "- 未実施維持: A-103〜A-142, A-147, A-151, A-152",
-  "- 理由: 2026-06-16 の PNG/JSON は有効だが、幅条件または観点が不足する行がある。",
+  "## 対象外188件の説明",
+  "- A_表示・レスポンシブ シートで、今回の提出対象外として整理済みの行。画面改修影響範囲外、または別途静的確認のみの行を含む。",
   "",
-  "## C_機能回帰の未実施8件",
+  "## 未実施の理由別内訳",
   "- テストデータ不足: C1-01, C1-02, C2-02, C3-08, C3-09, C3-11",
   "- 実行条件不足: C2-06, C2-08",
   "- 本番確認待ち: BUG-006",
   "",
-  "## Excel上の修正候補",
-  "- C_機能回帰のメモ欄に文字化けが残っている行は、日本語へ手修正が必要。",
-  "- Firefox error.asp 行の一部は、既存証跡を根拠に合格化の再判定余地がある。",
+  "## 不合格または保留の一覧",
+  "- C2-07: 保留（データ不足による LEFT JOIN 結果空欄。改修起因とは判定しない）",
+  "- C3-04, C3-05, C3-14, C4-01, C4-02: 保留（コード確認はあるが提出用証跡不足）",
+  "- A-147, A-151, A-152: 未実施（Firefox 既存証跡では観点不足）",
   "",
   "## 客先提出時の注意点",
-  "- 証跡が幅条件を満たさない項目は未実施のまま残す。",
-  "- C2-07 は不合格だが、改修回帰ではなくデータ不足整理。",
+  "- 証跡が幅条件を満たさない項目は未実施または保留のまま残す。",
+  "- C2-07 は改修回帰不具合ではなく、データ条件不足による保留として扱う。",
   "- BUG-006 は D:\\Inetpub\\haolog の本番確認が取れるまでクローズ不可。",
   "",
   "## 次に実行すべき最小テスト",
